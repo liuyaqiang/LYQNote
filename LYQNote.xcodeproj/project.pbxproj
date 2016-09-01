@@ -1,0 +1,760 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B906CE861D7572B0007A1533 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B906CE851D7572B0007A1533 /* main.m */; };
+		B906CE891D7572B0007A1533 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B906CE881D7572B0007A1533 /* AppDelegate.m */; };
+		B906CE8C1D7572B0007A1533 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B906CE8B1D7572B0007A1533 /* ViewController.m */; };
+		B906CE8F1D7572B0007A1533 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B906CE8D1D7572B0007A1533 /* Main.storyboard */; };
+		B906CE911D7572B0007A1533 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B906CE901D7572B0007A1533 /* Assets.xcassets */; };
+		B906CE941D7572B0007A1533 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B906CE921D7572B0007A1533 /* LaunchScreen.storyboard */; };
+		B906CE9F1D7572B0007A1533 /* LYQNoteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B906CE9E1D7572B0007A1533 /* LYQNoteTests.m */; };
+		B906CEAA1D7572B0007A1533 /* LYQNoteUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B906CEA91D7572B0007A1533 /* LYQNoteUITests.m */; };
+		B906CEC21D757746007A1533 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B906CEC11D757746007A1533 /* BaseViewController.m */; };
+		B906CEC51D757B46007A1533 /* LYQValueForKeyPathViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B906CEC41D757B46007A1533 /* LYQValueForKeyPathViewController.m */; };
+		B906CECC1D759397007A1533 /* LYQTextColorMaskViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B906CECB1D759397007A1533 /* LYQTextColorMaskViewController.m */; };
+		B906CECF1D767077007A1533 /* LYQLinkCodingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B906CECE1D767077007A1533 /* LYQLinkCodingViewController.m */; };
+		B906CED21D7670DB007A1533 /* LYQFunctionCodingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B906CED11D7670DB007A1533 /* LYQFunctionCodingViewController.m */; };
+		B906CED51D7670EB007A1533 /* LYQRuntimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B906CED41D7670EB007A1533 /* LYQRuntimeViewController.m */; };
+		B906CED81D76737E007A1533 /* LYQLinkCodingCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = B906CED71D76737E007A1533 /* LYQLinkCodingCalculator.m */; };
+		B906CEDB1D7676BD007A1533 /* LYQFunctionCodingCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = B906CEDA1D7676BD007A1533 /* LYQFunctionCodingCalculator.m */; };
+		B906CEE31D76B89A007A1533 /* LYQTableViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B906CEE21D76B89A007A1533 /* LYQTableViewModel.m */; };
+		B9714B791D77C214009AE3B2 /* 最快让你上手ReactiveCocoa之基础篇 - 简书.pdf in Resources */ = {isa = PBXBuildFile; fileRef = B9714B771D77C214009AE3B2 /* 最快让你上手ReactiveCocoa之基础篇 - 简书.pdf */; };
+		B9714B7A1D77C214009AE3B2 /* mvvm+最快让你上手ReactiveCocoa之进阶篇 - 简书.pdf in Resources */ = {isa = PBXBuildFile; fileRef = B9714B781D77C214009AE3B2 /* mvvm+最快让你上手ReactiveCocoa之进阶篇 - 简书.pdf */; };
+		B9714B7E1D77C252009AE3B2 /* LYQReactiveCocoaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9714B7D1D77C252009AE3B2 /* LYQReactiveCocoaViewController.m */; };
+		B9714B831D77CC9D009AE3B2 /* LYQReactiveTableVM.m in Sources */ = {isa = PBXBuildFile; fileRef = B9714B821D77CC9D009AE3B2 /* LYQReactiveTableVM.m */; };
+		B9714B871D77FC8D009AE3B2 /* MBProgressHUD+LYQ.m in Sources */ = {isa = PBXBuildFile; fileRef = B9714B861D77FC8D009AE3B2 /* MBProgressHUD+LYQ.m */; };
+		C0C4EA3F258BEC8B4E4DBAA9 /* Pods_LYQNote.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A99A0A9B785740BC09C4185 /* Pods_LYQNote.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B906CE9B1D7572B0007A1533 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B906CE791D7572B0007A1533 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B906CE801D7572B0007A1533;
+			remoteInfo = LYQNote;
+		};
+		B906CEA61D7572B0007A1533 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B906CE791D7572B0007A1533 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B906CE801D7572B0007A1533;
+			remoteInfo = LYQNote;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		30F84CB16FC46F412A5C224E /* Pods-LYQNote.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYQNote.release.xcconfig"; path = "Pods/Target Support Files/Pods-LYQNote/Pods-LYQNote.release.xcconfig"; sourceTree = "<group>"; };
+		3A99A0A9B785740BC09C4185 /* Pods_LYQNote.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LYQNote.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B906CE811D7572B0007A1533 /* LYQNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LYQNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B906CE851D7572B0007A1533 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B906CE871D7572B0007A1533 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B906CE881D7572B0007A1533 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B906CE8A1D7572B0007A1533 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B906CE8B1D7572B0007A1533 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B906CE8E1D7572B0007A1533 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B906CE901D7572B0007A1533 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B906CE931D7572B0007A1533 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B906CE951D7572B0007A1533 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B906CE9A1D7572B0007A1533 /* LYQNoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LYQNoteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B906CE9E1D7572B0007A1533 /* LYQNoteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYQNoteTests.m; sourceTree = "<group>"; };
+		B906CEA01D7572B0007A1533 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B906CEA51D7572B0007A1533 /* LYQNoteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LYQNoteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B906CEA91D7572B0007A1533 /* LYQNoteUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYQNoteUITests.m; sourceTree = "<group>"; };
+		B906CEAB1D7572B0007A1533 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B906CEC01D757746007A1533 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		B906CEC11D757746007A1533 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		B906CEC31D757B46007A1533 /* LYQValueForKeyPathViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYQValueForKeyPathViewController.h; sourceTree = "<group>"; };
+		B906CEC41D757B46007A1533 /* LYQValueForKeyPathViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYQValueForKeyPathViewController.m; sourceTree = "<group>"; };
+		B906CECA1D759397007A1533 /* LYQTextColorMaskViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYQTextColorMaskViewController.h; sourceTree = "<group>"; };
+		B906CECB1D759397007A1533 /* LYQTextColorMaskViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYQTextColorMaskViewController.m; sourceTree = "<group>"; };
+		B906CECD1D767077007A1533 /* LYQLinkCodingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYQLinkCodingViewController.h; sourceTree = "<group>"; };
+		B906CECE1D767077007A1533 /* LYQLinkCodingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYQLinkCodingViewController.m; sourceTree = "<group>"; };
+		B906CED01D7670DB007A1533 /* LYQFunctionCodingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYQFunctionCodingViewController.h; sourceTree = "<group>"; };
+		B906CED11D7670DB007A1533 /* LYQFunctionCodingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYQFunctionCodingViewController.m; sourceTree = "<group>"; };
+		B906CED31D7670EB007A1533 /* LYQRuntimeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYQRuntimeViewController.h; sourceTree = "<group>"; };
+		B906CED41D7670EB007A1533 /* LYQRuntimeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYQRuntimeViewController.m; sourceTree = "<group>"; };
+		B906CED61D76737D007A1533 /* LYQLinkCodingCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYQLinkCodingCalculator.h; sourceTree = "<group>"; };
+		B906CED71D76737E007A1533 /* LYQLinkCodingCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYQLinkCodingCalculator.m; sourceTree = "<group>"; };
+		B906CED91D7676BD007A1533 /* LYQFunctionCodingCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYQFunctionCodingCalculator.h; sourceTree = "<group>"; };
+		B906CEDA1D7676BD007A1533 /* LYQFunctionCodingCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYQFunctionCodingCalculator.m; sourceTree = "<group>"; };
+		B906CEE11D76B89A007A1533 /* LYQTableViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYQTableViewModel.h; sourceTree = "<group>"; };
+		B906CEE21D76B89A007A1533 /* LYQTableViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYQTableViewModel.m; sourceTree = "<group>"; };
+		B90E07B41D76E51F00FDF25B /* LYQGlobalHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYQGlobalHeader.h; sourceTree = "<group>"; };
+		B9714B771D77C214009AE3B2 /* 最快让你上手ReactiveCocoa之基础篇 - 简书.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "最快让你上手ReactiveCocoa之基础篇 - 简书.pdf"; sourceTree = "<group>"; };
+		B9714B781D77C214009AE3B2 /* mvvm+最快让你上手ReactiveCocoa之进阶篇 - 简书.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "mvvm+最快让你上手ReactiveCocoa之进阶篇 - 简书.pdf"; sourceTree = "<group>"; };
+		B9714B7C1D77C252009AE3B2 /* LYQReactiveCocoaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYQReactiveCocoaViewController.h; sourceTree = "<group>"; };
+		B9714B7D1D77C252009AE3B2 /* LYQReactiveCocoaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYQReactiveCocoaViewController.m; sourceTree = "<group>"; };
+		B9714B811D77CC9D009AE3B2 /* LYQReactiveTableVM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYQReactiveTableVM.h; sourceTree = "<group>"; };
+		B9714B821D77CC9D009AE3B2 /* LYQReactiveTableVM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYQReactiveTableVM.m; sourceTree = "<group>"; };
+		B9714B851D77FC8D009AE3B2 /* MBProgressHUD+LYQ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+LYQ.h"; sourceTree = "<group>"; };
+		B9714B861D77FC8D009AE3B2 /* MBProgressHUD+LYQ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+LYQ.m"; sourceTree = "<group>"; };
+		B9714B891D77FCE2009AE3B2 /* LYQUniversalDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYQUniversalDefine.h; sourceTree = "<group>"; };
+		B9714B8A1D77FD2B009AE3B2 /* LYQPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYQPrefixHeader.pch; sourceTree = "<group>"; };
+		F03DABA4BCF719737FBAC126 /* Pods-LYQNote.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYQNote.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LYQNote/Pods-LYQNote.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B906CE7E1D7572B0007A1533 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0C4EA3F258BEC8B4E4DBAA9 /* Pods_LYQNote.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B906CE971D7572B0007A1533 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B906CEA21D7572B0007A1533 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		293C8CBA5D593171FDBD94D2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F03DABA4BCF719737FBAC126 /* Pods-LYQNote.debug.xcconfig */,
+				30F84CB16FC46F412A5C224E /* Pods-LYQNote.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6D1D350E16806957164C4A7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A99A0A9B785740BC09C4185 /* Pods_LYQNote.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B906CE781D7572B0007A1533 = {
+			isa = PBXGroup;
+			children = (
+				B906CE831D7572B0007A1533 /* LYQNote */,
+				B906CE9D1D7572B0007A1533 /* LYQNoteTests */,
+				B906CEA81D7572B0007A1533 /* LYQNoteUITests */,
+				B906CE821D7572B0007A1533 /* Products */,
+				293C8CBA5D593171FDBD94D2 /* Pods */,
+				6D1D350E16806957164C4A7B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B906CE821D7572B0007A1533 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B906CE811D7572B0007A1533 /* LYQNote.app */,
+				B906CE9A1D7572B0007A1533 /* LYQNoteTests.xctest */,
+				B906CEA51D7572B0007A1533 /* LYQNoteUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B906CE831D7572B0007A1533 /* LYQNote */ = {
+			isa = PBXGroup;
+			children = (
+				B906CE871D7572B0007A1533 /* AppDelegate.h */,
+				B906CE881D7572B0007A1533 /* AppDelegate.m */,
+				B906CE8A1D7572B0007A1533 /* ViewController.h */,
+				B906CE8B1D7572B0007A1533 /* ViewController.m */,
+				B906CEE01D76B859007A1533 /* VM */,
+				B9714B841D77FBBC009AE3B2 /* category */,
+				B906CEC01D757746007A1533 /* BaseViewController.h */,
+				B906CEC11D757746007A1533 /* BaseViewController.m */,
+				B906CEBB1D75735F007A1533 /* runtime */,
+				B906CEBC1D75735F007A1533 /* valueforkeypath */,
+				B906CEB81D75734E007A1533 /* 函数式编程 */,
+				B906CEB91D75734E007A1533 /* 链接式编程 */,
+				B906CEC91D759378007A1533 /* 字体变颜色 */,
+				B9714B761D77C214009AE3B2 /* ReactiveCocoa */,
+				B906CE8D1D7572B0007A1533 /* Main.storyboard */,
+				B906CE901D7572B0007A1533 /* Assets.xcassets */,
+				B906CE921D7572B0007A1533 /* LaunchScreen.storyboard */,
+				B906CE951D7572B0007A1533 /* Info.plist */,
+				B906CE841D7572B0007A1533 /* Supporting Files */,
+			);
+			path = LYQNote;
+			sourceTree = "<group>";
+		};
+		B906CE841D7572B0007A1533 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B906CE851D7572B0007A1533 /* main.m */,
+				B90E07B41D76E51F00FDF25B /* LYQGlobalHeader.h */,
+				B9714B891D77FCE2009AE3B2 /* LYQUniversalDefine.h */,
+				B9714B8A1D77FD2B009AE3B2 /* LYQPrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B906CE9D1D7572B0007A1533 /* LYQNoteTests */ = {
+			isa = PBXGroup;
+			children = (
+				B906CE9E1D7572B0007A1533 /* LYQNoteTests.m */,
+				B906CEA01D7572B0007A1533 /* Info.plist */,
+			);
+			path = LYQNoteTests;
+			sourceTree = "<group>";
+		};
+		B906CEA81D7572B0007A1533 /* LYQNoteUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B906CEA91D7572B0007A1533 /* LYQNoteUITests.m */,
+				B906CEAB1D7572B0007A1533 /* Info.plist */,
+			);
+			path = LYQNoteUITests;
+			sourceTree = "<group>";
+		};
+		B906CEB81D75734E007A1533 /* 函数式编程 */ = {
+			isa = PBXGroup;
+			children = (
+				B906CED01D7670DB007A1533 /* LYQFunctionCodingViewController.h */,
+				B906CED11D7670DB007A1533 /* LYQFunctionCodingViewController.m */,
+				B906CED91D7676BD007A1533 /* LYQFunctionCodingCalculator.h */,
+				B906CEDA1D7676BD007A1533 /* LYQFunctionCodingCalculator.m */,
+			);
+			path = "函数式编程";
+			sourceTree = "<group>";
+		};
+		B906CEB91D75734E007A1533 /* 链接式编程 */ = {
+			isa = PBXGroup;
+			children = (
+				B906CECD1D767077007A1533 /* LYQLinkCodingViewController.h */,
+				B906CECE1D767077007A1533 /* LYQLinkCodingViewController.m */,
+				B906CED61D76737D007A1533 /* LYQLinkCodingCalculator.h */,
+				B906CED71D76737E007A1533 /* LYQLinkCodingCalculator.m */,
+			);
+			path = "链接式编程";
+			sourceTree = "<group>";
+		};
+		B906CEBB1D75735F007A1533 /* runtime */ = {
+			isa = PBXGroup;
+			children = (
+				B906CED31D7670EB007A1533 /* LYQRuntimeViewController.h */,
+				B906CED41D7670EB007A1533 /* LYQRuntimeViewController.m */,
+			);
+			path = runtime;
+			sourceTree = "<group>";
+		};
+		B906CEBC1D75735F007A1533 /* valueforkeypath */ = {
+			isa = PBXGroup;
+			children = (
+				B906CEC31D757B46007A1533 /* LYQValueForKeyPathViewController.h */,
+				B906CEC41D757B46007A1533 /* LYQValueForKeyPathViewController.m */,
+			);
+			path = valueforkeypath;
+			sourceTree = "<group>";
+		};
+		B906CEC91D759378007A1533 /* 字体变颜色 */ = {
+			isa = PBXGroup;
+			children = (
+				B906CECA1D759397007A1533 /* LYQTextColorMaskViewController.h */,
+				B906CECB1D759397007A1533 /* LYQTextColorMaskViewController.m */,
+			);
+			path = "字体变颜色";
+			sourceTree = "<group>";
+		};
+		B906CEE01D76B859007A1533 /* VM */ = {
+			isa = PBXGroup;
+			children = (
+				B906CEE11D76B89A007A1533 /* LYQTableViewModel.h */,
+				B906CEE21D76B89A007A1533 /* LYQTableViewModel.m */,
+			);
+			name = VM;
+			sourceTree = "<group>";
+		};
+		B9714B761D77C214009AE3B2 /* ReactiveCocoa */ = {
+			isa = PBXGroup;
+			children = (
+				B9714B771D77C214009AE3B2 /* 最快让你上手ReactiveCocoa之基础篇 - 简书.pdf */,
+				B9714B781D77C214009AE3B2 /* mvvm+最快让你上手ReactiveCocoa之进阶篇 - 简书.pdf */,
+				B9714B7C1D77C252009AE3B2 /* LYQReactiveCocoaViewController.h */,
+				B9714B7D1D77C252009AE3B2 /* LYQReactiveCocoaViewController.m */,
+				B9714B801D77CC7D009AE3B2 /* vm */,
+			);
+			path = ReactiveCocoa;
+			sourceTree = "<group>";
+		};
+		B9714B801D77CC7D009AE3B2 /* vm */ = {
+			isa = PBXGroup;
+			children = (
+				B9714B811D77CC9D009AE3B2 /* LYQReactiveTableVM.h */,
+				B9714B821D77CC9D009AE3B2 /* LYQReactiveTableVM.m */,
+			);
+			name = vm;
+			sourceTree = "<group>";
+		};
+		B9714B841D77FBBC009AE3B2 /* category */ = {
+			isa = PBXGroup;
+			children = (
+				B9714B851D77FC8D009AE3B2 /* MBProgressHUD+LYQ.h */,
+				B9714B861D77FC8D009AE3B2 /* MBProgressHUD+LYQ.m */,
+			);
+			path = category;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B906CE801D7572B0007A1533 /* LYQNote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B906CEAE1D7572B0007A1533 /* Build configuration list for PBXNativeTarget "LYQNote" */;
+			buildPhases = (
+				F9DA40E5D789E7BFA6C4F1D2 /* [CP] Check Pods Manifest.lock */,
+				B906CE7D1D7572B0007A1533 /* Sources */,
+				B906CE7E1D7572B0007A1533 /* Frameworks */,
+				B906CE7F1D7572B0007A1533 /* Resources */,
+				AFF7E57548D83F349C927C42 /* [CP] Embed Pods Frameworks */,
+				C0C9B68F04A3BD41576F997C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LYQNote;
+			productName = LYQNote;
+			productReference = B906CE811D7572B0007A1533 /* LYQNote.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B906CE991D7572B0007A1533 /* LYQNoteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B906CEB11D7572B0007A1533 /* Build configuration list for PBXNativeTarget "LYQNoteTests" */;
+			buildPhases = (
+				B906CE961D7572B0007A1533 /* Sources */,
+				B906CE971D7572B0007A1533 /* Frameworks */,
+				B906CE981D7572B0007A1533 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B906CE9C1D7572B0007A1533 /* PBXTargetDependency */,
+			);
+			name = LYQNoteTests;
+			productName = LYQNoteTests;
+			productReference = B906CE9A1D7572B0007A1533 /* LYQNoteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B906CEA41D7572B0007A1533 /* LYQNoteUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B906CEB41D7572B0007A1533 /* Build configuration list for PBXNativeTarget "LYQNoteUITests" */;
+			buildPhases = (
+				B906CEA11D7572B0007A1533 /* Sources */,
+				B906CEA21D7572B0007A1533 /* Frameworks */,
+				B906CEA31D7572B0007A1533 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B906CEA71D7572B0007A1533 /* PBXTargetDependency */,
+			);
+			name = LYQNoteUITests;
+			productName = LYQNoteUITests;
+			productReference = B906CEA51D7572B0007A1533 /* LYQNoteUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B906CE791D7572B0007A1533 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = LYQ;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = liuyaqiang;
+				TargetAttributes = {
+					B906CE801D7572B0007A1533 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					B906CE991D7572B0007A1533 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = B906CE801D7572B0007A1533;
+					};
+					B906CEA41D7572B0007A1533 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = B906CE801D7572B0007A1533;
+					};
+				};
+			};
+			buildConfigurationList = B906CE7C1D7572B0007A1533 /* Build configuration list for PBXProject "LYQNote" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B906CE781D7572B0007A1533;
+			productRefGroup = B906CE821D7572B0007A1533 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B906CE801D7572B0007A1533 /* LYQNote */,
+				B906CE991D7572B0007A1533 /* LYQNoteTests */,
+				B906CEA41D7572B0007A1533 /* LYQNoteUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B906CE7F1D7572B0007A1533 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B906CE941D7572B0007A1533 /* LaunchScreen.storyboard in Resources */,
+				B906CE911D7572B0007A1533 /* Assets.xcassets in Resources */,
+				B906CE8F1D7572B0007A1533 /* Main.storyboard in Resources */,
+				B9714B791D77C214009AE3B2 /* 最快让你上手ReactiveCocoa之基础篇 - 简书.pdf in Resources */,
+				B9714B7A1D77C214009AE3B2 /* mvvm+最快让你上手ReactiveCocoa之进阶篇 - 简书.pdf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B906CE981D7572B0007A1533 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B906CEA31D7572B0007A1533 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AFF7E57548D83F349C927C42 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LYQNote/Pods-LYQNote-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0C9B68F04A3BD41576F997C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LYQNote/Pods-LYQNote-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9DA40E5D789E7BFA6C4F1D2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B906CE7D1D7572B0007A1533 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B906CECC1D759397007A1533 /* LYQTextColorMaskViewController.m in Sources */,
+				B9714B7E1D77C252009AE3B2 /* LYQReactiveCocoaViewController.m in Sources */,
+				B906CED21D7670DB007A1533 /* LYQFunctionCodingViewController.m in Sources */,
+				B906CED81D76737E007A1533 /* LYQLinkCodingCalculator.m in Sources */,
+				B906CE8C1D7572B0007A1533 /* ViewController.m in Sources */,
+				B906CEE31D76B89A007A1533 /* LYQTableViewModel.m in Sources */,
+				B906CEC21D757746007A1533 /* BaseViewController.m in Sources */,
+				B9714B831D77CC9D009AE3B2 /* LYQReactiveTableVM.m in Sources */,
+				B906CECF1D767077007A1533 /* LYQLinkCodingViewController.m in Sources */,
+				B906CED51D7670EB007A1533 /* LYQRuntimeViewController.m in Sources */,
+				B9714B871D77FC8D009AE3B2 /* MBProgressHUD+LYQ.m in Sources */,
+				B906CE891D7572B0007A1533 /* AppDelegate.m in Sources */,
+				B906CE861D7572B0007A1533 /* main.m in Sources */,
+				B906CEDB1D7676BD007A1533 /* LYQFunctionCodingCalculator.m in Sources */,
+				B906CEC51D757B46007A1533 /* LYQValueForKeyPathViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B906CE961D7572B0007A1533 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B906CE9F1D7572B0007A1533 /* LYQNoteTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B906CEA11D7572B0007A1533 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B906CEAA1D7572B0007A1533 /* LYQNoteUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B906CE9C1D7572B0007A1533 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B906CE801D7572B0007A1533 /* LYQNote */;
+			targetProxy = B906CE9B1D7572B0007A1533 /* PBXContainerItemProxy */;
+		};
+		B906CEA71D7572B0007A1533 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B906CE801D7572B0007A1533 /* LYQNote */;
+			targetProxy = B906CEA61D7572B0007A1533 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B906CE8D1D7572B0007A1533 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B906CE8E1D7572B0007A1533 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B906CE921D7572B0007A1533 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B906CE931D7572B0007A1533 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B906CEAC1D7572B0007A1533 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B906CEAD1D7572B0007A1533 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B906CEAF1D7572B0007A1533 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F03DABA4BCF719737FBAC126 /* Pods-LYQNote.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = /Users/liuyaqiang/Desktop/LYQNote/LYQNote/LYQPrefixHeader.pch;
+				INFOPLIST_FILE = LYQNote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = liuyaqiang.LYQNote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B906CEB01D7572B0007A1533 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30F84CB16FC46F412A5C224E /* Pods-LYQNote.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = /Users/liuyaqiang/Desktop/LYQNote/LYQNote/LYQPrefixHeader.pch;
+				INFOPLIST_FILE = LYQNote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = liuyaqiang.LYQNote;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B906CEB21D7572B0007A1533 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LYQNoteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = liuyaqiang.LYQNoteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LYQNote.app/LYQNote";
+			};
+			name = Debug;
+		};
+		B906CEB31D7572B0007A1533 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LYQNoteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = liuyaqiang.LYQNoteTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LYQNote.app/LYQNote";
+			};
+			name = Release;
+		};
+		B906CEB51D7572B0007A1533 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LYQNoteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = liuyaqiang.LYQNoteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LYQNote;
+			};
+			name = Debug;
+		};
+		B906CEB61D7572B0007A1533 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LYQNoteUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = liuyaqiang.LYQNoteUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LYQNote;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B906CE7C1D7572B0007A1533 /* Build configuration list for PBXProject "LYQNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B906CEAC1D7572B0007A1533 /* Debug */,
+				B906CEAD1D7572B0007A1533 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B906CEAE1D7572B0007A1533 /* Build configuration list for PBXNativeTarget "LYQNote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B906CEAF1D7572B0007A1533 /* Debug */,
+				B906CEB01D7572B0007A1533 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B906CEB11D7572B0007A1533 /* Build configuration list for PBXNativeTarget "LYQNoteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B906CEB21D7572B0007A1533 /* Debug */,
+				B906CEB31D7572B0007A1533 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B906CEB41D7572B0007A1533 /* Build configuration list for PBXNativeTarget "LYQNoteUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B906CEB51D7572B0007A1533 /* Debug */,
+				B906CEB61D7572B0007A1533 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B906CE791D7572B0007A1533 /* Project object */;
+}

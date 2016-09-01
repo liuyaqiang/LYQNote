@@ -1,0 +1,21 @@
+//
+//  LYQPrefixHeader.pch
+//  LYQNote
+//
+//  Created by 刘亚强 on 16/9/1.
+//  Copyright © 2016年 liuyaqiang. All rights reserved.
+//
+
+#ifndef LYQPrefixHeader_pch
+#define LYQPrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+/**
+ *  .h
+ */
+#import "LYQUniversalDefine.h"
+
+#import "LYQGlobalHeader.h"
+
+#endif /* LYQPrefixHeader_pch */

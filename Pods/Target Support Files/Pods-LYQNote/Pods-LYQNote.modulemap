@@ -1,0 +1,6 @@
+framework module Pods_LYQNote {
+  umbrella header "Pods-LYQNote-umbrella.h"
+
+  export *
+  module * { export * }
+}
