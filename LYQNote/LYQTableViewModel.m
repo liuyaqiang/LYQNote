@@ -13,6 +13,7 @@
 #import "LYQLinkCodingViewController.h"
 #import "LYQRuntimeViewController.h"
 #import "LYQReactiveCocoaViewController.h"
+#import "LYQCoreImgViewController.h"
 
 @interface LYQTableViewModel()
 

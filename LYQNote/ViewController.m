@@ -14,6 +14,7 @@
 #import "LYQLinkCodingViewController.h"
 #import "LYQRuntimeViewController.h"
 #import "LYQReactiveCocoaViewController.h"
+#import "LYQCoreImgViewController.h"
 
 //VM
 #import "LYQTableViewModel.h"
@@ -22,7 +23,7 @@
 {
     LYQValueForKeyPathViewController *vkpClt;
     LYQTableViewModel *tableViewM;
-    NSString *functionStr, *linkCodingStr, *textColorMaskStr, *valueForKeyPathStr, *runtimeStr, *reactiveCocoaStr;
+    NSString *functionStr, *linkCodingStr, *textColorMaskStr, *valueForKeyPathStr, *runtimeStr, *reactiveCocoaStr, *coreImgStr;
     
 }
 @property (nonatomic, strong) UITableView *tableView;
@@ -75,23 +76,25 @@
                      @[NSStringFromClass([LYQRuntimeViewController class])],
                      @[NSStringFromClass([LYQFunctionCodingViewController class])],
                      @[NSStringFromClass([LYQLinkCodingViewController class])],
-                     @[NSStringFromClass([LYQReactiveCocoaViewController class])]
+                     @[NSStringFromClass([LYQReactiveCocoaViewController class])],
+                     @[NSStringFromClass([LYQCoreImgViewController class])]
                      ];
+
     }
     return _dataArr;
 }
 - (NSDictionary *)titleDic
 {
     if (!_titleDic) {
-        functionStr = @"函数式编程", linkCodingStr = @"链接式编程", textColorMaskStr = @"字体颜色覆盖", valueForKeyPathStr = @"valueForKeyPath", runtimeStr = @"runtime", reactiveCocoaStr = @"reactiveCocoa";
+        functionStr = @"函数式编程", linkCodingStr = @"链接式编程", textColorMaskStr = @"字体颜色覆盖", valueForKeyPathStr = @"valueForKeyPath", runtimeStr = @"runtime", reactiveCocoaStr = @"reactiveCocoa" ,coreImgStr = @"coreImg";
         _titleDic = @{
                       NSStringFromClass([LYQValueForKeyPathViewController class]) : valueForKeyPathStr,
                       NSStringFromClass([LYQTextColorMaskViewController class]) :textColorMaskStr,
                       NSStringFromClass([LYQRuntimeViewController class]) : runtimeStr,
                       NSStringFromClass([LYQFunctionCodingViewController class]) : functionStr,
                       NSStringFromClass([LYQLinkCodingViewController class]) : linkCodingStr,
-                      NSStringFromClass([LYQReactiveCocoaViewController class]) : reactiveCocoaStr
-                      
+                      NSStringFromClass([LYQReactiveCocoaViewController class]) : reactiveCocoaStr,
+                      NSStringFromClass([LYQCoreImgViewController class]) : coreImgStr
                       };
     }
     return _titleDic;

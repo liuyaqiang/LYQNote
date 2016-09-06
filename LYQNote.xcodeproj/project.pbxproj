@@ -9,10 +9,8 @@
 /* Begin PBXBuildFile section */
 		B906CE861D7572B0007A1533 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B906CE851D7572B0007A1533 /* main.m */; };
 		B906CE891D7572B0007A1533 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B906CE881D7572B0007A1533 /* AppDelegate.m */; };
-		B906CE8C1D7572B0007A1533 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B906CE8B1D7572B0007A1533 /* ViewController.m */; };
 		B906CE8F1D7572B0007A1533 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B906CE8D1D7572B0007A1533 /* Main.storyboard */; };
 		B906CE911D7572B0007A1533 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B906CE901D7572B0007A1533 /* Assets.xcassets */; };
-		B906CE941D7572B0007A1533 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B906CE921D7572B0007A1533 /* LaunchScreen.storyboard */; };
 		B906CE9F1D7572B0007A1533 /* LYQNoteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B906CE9E1D7572B0007A1533 /* LYQNoteTests.m */; };
 		B906CEAA1D7572B0007A1533 /* LYQNoteUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B906CEA91D7572B0007A1533 /* LYQNoteUITests.m */; };
 		B906CEC21D757746007A1533 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B906CEC11D757746007A1533 /* BaseViewController.m */; };
@@ -29,6 +27,13 @@
 		B9714B7E1D77C252009AE3B2 /* LYQReactiveCocoaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9714B7D1D77C252009AE3B2 /* LYQReactiveCocoaViewController.m */; };
 		B9714B831D77CC9D009AE3B2 /* LYQReactiveTableVM.m in Sources */ = {isa = PBXBuildFile; fileRef = B9714B821D77CC9D009AE3B2 /* LYQReactiveTableVM.m */; };
 		B9714B871D77FC8D009AE3B2 /* MBProgressHUD+LYQ.m in Sources */ = {isa = PBXBuildFile; fileRef = B9714B861D77FC8D009AE3B2 /* MBProgressHUD+LYQ.m */; };
+		B97966E71D7E9ED600041DCE /* UIImage+Filters.m in Sources */ = {isa = PBXBuildFile; fileRef = B97966E61D7E9ED600041DCE /* UIImage+Filters.m */; };
+		B97966EB1D7E9F1000041DCE /* LYQCoreImgViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B97966E91D7E9F1000041DCE /* LYQCoreImgViewController.m */; };
+		B97966EC1D7E9F1000041DCE /* LYQCoreImgViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B97966EA1D7E9F1000041DCE /* LYQCoreImgViewController.xib */; };
+		B97966EE1D7E9F4C00041DCE /* nyc.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B97966ED1D7E9F4C00041DCE /* nyc.jpg */; };
+		B98EEED51D78347700533494 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B98EEED41D78347700533494 /* ViewController.m */; };
+		B98EEED81D7834D500533494 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B98EEED61D7834D500533494 /* LaunchScreen.storyboard */; };
+		B98EEEDD1D78379200533494 /* launchScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = B98EEEDC1D78379200533494 /* launchScreen.png */; };
 		C0C4EA3F258BEC8B4E4DBAA9 /* Pods_LYQNote.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A99A0A9B785740BC09C4185 /* Pods_LYQNote.framework */; };
 /* End PBXBuildFile section */
 
@@ -57,10 +62,8 @@
 		B906CE871D7572B0007A1533 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B906CE881D7572B0007A1533 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B906CE8A1D7572B0007A1533 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B906CE8B1D7572B0007A1533 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B906CE8E1D7572B0007A1533 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B906CE901D7572B0007A1533 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B906CE931D7572B0007A1533 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B906CE951D7572B0007A1533 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B906CE9A1D7572B0007A1533 /* LYQNoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LYQNoteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B906CE9E1D7572B0007A1533 /* LYQNoteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYQNoteTests.m; sourceTree = "<group>"; };
@@ -97,6 +100,15 @@
 		B9714B861D77FC8D009AE3B2 /* MBProgressHUD+LYQ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+LYQ.m"; sourceTree = "<group>"; };
 		B9714B891D77FCE2009AE3B2 /* LYQUniversalDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYQUniversalDefine.h; sourceTree = "<group>"; };
 		B9714B8A1D77FD2B009AE3B2 /* LYQPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYQPrefixHeader.pch; sourceTree = "<group>"; };
+		B97966E51D7E9ED500041DCE /* UIImage+Filters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Filters.h"; sourceTree = "<group>"; };
+		B97966E61D7E9ED600041DCE /* UIImage+Filters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Filters.m"; sourceTree = "<group>"; };
+		B97966E81D7E9F1000041DCE /* LYQCoreImgViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYQCoreImgViewController.h; sourceTree = "<group>"; };
+		B97966E91D7E9F1000041DCE /* LYQCoreImgViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYQCoreImgViewController.m; sourceTree = "<group>"; };
+		B97966EA1D7E9F1000041DCE /* LYQCoreImgViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LYQCoreImgViewController.xib; sourceTree = "<group>"; };
+		B97966ED1D7E9F4C00041DCE /* nyc.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nyc.jpg; sourceTree = "<group>"; };
+		B98EEED41D78347700533494 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B98EEED71D7834D500533494 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B98EEEDC1D78379200533494 /* launchScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launchScreen.png; sourceTree = "<group>"; };
 		F03DABA4BCF719737FBAC126 /* Pods-LYQNote.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYQNote.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LYQNote/Pods-LYQNote.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -168,10 +180,11 @@
 		B906CE831D7572B0007A1533 /* LYQNote */ = {
 			isa = PBXGroup;
 			children = (
+				B98EEEDB1D78378D00533494 /* Asset */,
 				B906CE871D7572B0007A1533 /* AppDelegate.h */,
 				B906CE881D7572B0007A1533 /* AppDelegate.m */,
 				B906CE8A1D7572B0007A1533 /* ViewController.h */,
-				B906CE8B1D7572B0007A1533 /* ViewController.m */,
+				B98EEED41D78347700533494 /* ViewController.m */,
 				B906CEE01D76B859007A1533 /* VM */,
 				B9714B841D77FBBC009AE3B2 /* category */,
 				B906CEC01D757746007A1533 /* BaseViewController.h */,
@@ -182,10 +195,11 @@
 				B906CEB91D75734E007A1533 /* 链接式编程 */,
 				B906CEC91D759378007A1533 /* 字体变颜色 */,
 				B9714B761D77C214009AE3B2 /* ReactiveCocoa */,
+				B97966E41D7E9EB600041DCE /* CoreImg */,
 				B906CE8D1D7572B0007A1533 /* Main.storyboard */,
 				B906CE901D7572B0007A1533 /* Assets.xcassets */,
-				B906CE921D7572B0007A1533 /* LaunchScreen.storyboard */,
 				B906CE951D7572B0007A1533 /* Info.plist */,
+				B98EEED61D7834D500533494 /* LaunchScreen.storyboard */,
 				B906CE841D7572B0007A1533 /* Supporting Files */,
 			);
 			path = LYQNote;
@@ -308,6 +322,27 @@
 			path = category;
 			sourceTree = "<group>";
 		};
+		B97966E41D7E9EB600041DCE /* CoreImg */ = {
+			isa = PBXGroup;
+			children = (
+				B97966E51D7E9ED500041DCE /* UIImage+Filters.h */,
+				B97966E61D7E9ED600041DCE /* UIImage+Filters.m */,
+				B97966E81D7E9F1000041DCE /* LYQCoreImgViewController.h */,
+				B97966E91D7E9F1000041DCE /* LYQCoreImgViewController.m */,
+				B97966EA1D7E9F1000041DCE /* LYQCoreImgViewController.xib */,
+				B97966ED1D7E9F4C00041DCE /* nyc.jpg */,
+			);
+			path = CoreImg;
+			sourceTree = "<group>";
+		};
+		B98EEEDB1D78378D00533494 /* Asset */ = {
+			isa = PBXGroup;
+			children = (
+				B98EEEDC1D78379200533494 /* launchScreen.png */,
+			);
+			path = Asset;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -415,10 +450,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B906CE941D7572B0007A1533 /* LaunchScreen.storyboard in Resources */,
+				B97966EE1D7E9F4C00041DCE /* nyc.jpg in Resources */,
 				B906CE911D7572B0007A1533 /* Assets.xcassets in Resources */,
 				B906CE8F1D7572B0007A1533 /* Main.storyboard in Resources */,
+				B97966EC1D7E9F1000041DCE /* LYQCoreImgViewController.xib in Resources */,
+				B98EEEDD1D78379200533494 /* launchScreen.png in Resources */,
 				B9714B791D77C214009AE3B2 /* 最快让你上手ReactiveCocoa之基础篇 - 简书.pdf in Resources */,
+				B98EEED81D7834D500533494 /* LaunchScreen.storyboard in Resources */,
 				B9714B7A1D77C214009AE3B2 /* mvvm+最快让你上手ReactiveCocoa之进阶篇 - 简书.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -493,15 +531,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				B906CECC1D759397007A1533 /* LYQTextColorMaskViewController.m in Sources */,
+				B97966E71D7E9ED600041DCE /* UIImage+Filters.m in Sources */,
 				B9714B7E1D77C252009AE3B2 /* LYQReactiveCocoaViewController.m in Sources */,
 				B906CED21D7670DB007A1533 /* LYQFunctionCodingViewController.m in Sources */,
 				B906CED81D76737E007A1533 /* LYQLinkCodingCalculator.m in Sources */,
-				B906CE8C1D7572B0007A1533 /* ViewController.m in Sources */,
 				B906CEE31D76B89A007A1533 /* LYQTableViewModel.m in Sources */,
 				B906CEC21D757746007A1533 /* BaseViewController.m in Sources */,
+				B97966EB1D7E9F1000041DCE /* LYQCoreImgViewController.m in Sources */,
 				B9714B831D77CC9D009AE3B2 /* LYQReactiveTableVM.m in Sources */,
 				B906CECF1D767077007A1533 /* LYQLinkCodingViewController.m in Sources */,
 				B906CED51D7670EB007A1533 /* LYQRuntimeViewController.m in Sources */,
+				B98EEED51D78347700533494 /* ViewController.m in Sources */,
 				B9714B871D77FC8D009AE3B2 /* MBProgressHUD+LYQ.m in Sources */,
 				B906CE891D7572B0007A1533 /* AppDelegate.m in Sources */,
 				B906CE861D7572B0007A1533 /* main.m in Sources */,
@@ -550,10 +590,10 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		B906CE921D7572B0007A1533 /* LaunchScreen.storyboard */ = {
+		B98EEED61D7834D500533494 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B906CE931D7572B0007A1533 /* Base */,
+				B98EEED71D7834D500533494 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
