@@ -31,6 +31,8 @@
 		B97966EB1D7E9F1000041DCE /* LYQCoreImgViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B97966E91D7E9F1000041DCE /* LYQCoreImgViewController.m */; };
 		B97966EC1D7E9F1000041DCE /* LYQCoreImgViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B97966EA1D7E9F1000041DCE /* LYQCoreImgViewController.xib */; };
 		B97966EE1D7E9F4C00041DCE /* nyc.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B97966ED1D7E9F4C00041DCE /* nyc.jpg */; };
+		B97966FA1D7EC5DB00041DCE /* LYQReactiveUniversalUseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B97966F81D7EC5DB00041DCE /* LYQReactiveUniversalUseViewController.m */; };
+		B97966FB1D7EC5DB00041DCE /* LYQReactiveUniversalUseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B97966F91D7EC5DB00041DCE /* LYQReactiveUniversalUseViewController.xib */; };
 		B98EEED51D78347700533494 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B98EEED41D78347700533494 /* ViewController.m */; };
 		B98EEED81D7834D500533494 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B98EEED61D7834D500533494 /* LaunchScreen.storyboard */; };
 		B98EEEDD1D78379200533494 /* launchScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = B98EEEDC1D78379200533494 /* launchScreen.png */; };
@@ -106,6 +108,9 @@
 		B97966E91D7E9F1000041DCE /* LYQCoreImgViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYQCoreImgViewController.m; sourceTree = "<group>"; };
 		B97966EA1D7E9F1000041DCE /* LYQCoreImgViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LYQCoreImgViewController.xib; sourceTree = "<group>"; };
 		B97966ED1D7E9F4C00041DCE /* nyc.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nyc.jpg; sourceTree = "<group>"; };
+		B97966F71D7EC5DB00041DCE /* LYQReactiveUniversalUseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYQReactiveUniversalUseViewController.h; sourceTree = "<group>"; };
+		B97966F81D7EC5DB00041DCE /* LYQReactiveUniversalUseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYQReactiveUniversalUseViewController.m; sourceTree = "<group>"; };
+		B97966F91D7EC5DB00041DCE /* LYQReactiveUniversalUseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LYQReactiveUniversalUseViewController.xib; sourceTree = "<group>"; };
 		B98EEED41D78347700533494 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B98EEED71D7834D500533494 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B98EEEDC1D78379200533494 /* launchScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launchScreen.png; sourceTree = "<group>"; };
@@ -299,6 +304,9 @@
 				B9714B781D77C214009AE3B2 /* mvvm+最快让你上手ReactiveCocoa之进阶篇 - 简书.pdf */,
 				B9714B7C1D77C252009AE3B2 /* LYQReactiveCocoaViewController.h */,
 				B9714B7D1D77C252009AE3B2 /* LYQReactiveCocoaViewController.m */,
+				B97966F71D7EC5DB00041DCE /* LYQReactiveUniversalUseViewController.h */,
+				B97966F81D7EC5DB00041DCE /* LYQReactiveUniversalUseViewController.m */,
+				B97966F91D7EC5DB00041DCE /* LYQReactiveUniversalUseViewController.xib */,
 				B9714B801D77CC7D009AE3B2 /* vm */,
 			);
 			path = ReactiveCocoa;
@@ -452,6 +460,7 @@
 			files = (
 				B97966EE1D7E9F4C00041DCE /* nyc.jpg in Resources */,
 				B906CE911D7572B0007A1533 /* Assets.xcassets in Resources */,
+				B97966FB1D7EC5DB00041DCE /* LYQReactiveUniversalUseViewController.xib in Resources */,
 				B906CE8F1D7572B0007A1533 /* Main.storyboard in Resources */,
 				B97966EC1D7E9F1000041DCE /* LYQCoreImgViewController.xib in Resources */,
 				B98EEEDD1D78379200533494 /* launchScreen.png in Resources */,
@@ -536,6 +545,7 @@
 				B906CED21D7670DB007A1533 /* LYQFunctionCodingViewController.m in Sources */,
 				B906CED81D76737E007A1533 /* LYQLinkCodingCalculator.m in Sources */,
 				B906CEE31D76B89A007A1533 /* LYQTableViewModel.m in Sources */,
+				B97966FA1D7EC5DB00041DCE /* LYQReactiveUniversalUseViewController.m in Sources */,
 				B906CEC21D757746007A1533 /* BaseViewController.m in Sources */,
 				B97966EB1D7E9F1000041DCE /* LYQCoreImgViewController.m in Sources */,
 				B9714B831D77CC9D009AE3B2 /* LYQReactiveTableVM.m in Sources */,

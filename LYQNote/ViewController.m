@@ -43,7 +43,7 @@
     tableViewM.DelegateSubject  = [RACSubject subject];
     [tableViewM.DelegateSubject subscribeNext:^(id x) {
         [[(BaseViewController *)NSClassFromString(x) class] pushToVctlFromCurrentCtl:self toCtlBlcok:^(UIViewController *toCtl) {
-            
+            toCtl.title = [self.titleDic valueForKey:x];
         }];
     }];
     tableViewM.titleDic = self.titleDic;

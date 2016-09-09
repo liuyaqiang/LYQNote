@@ -11,6 +11,7 @@
 #import "RACDisposable.h"
 #import "RACSubscriber.h"
 #import "LYQReactiveTableVM.h"
+#import "LYQReactiveUniversalUseViewController.h"
 
 @interface LYQReactiveCocoaViewController ()
 @property (nonatomic, strong) UITableView *tableView;
@@ -22,6 +23,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.ReactiveTableVM = [[LYQReactiveTableVM alloc]init];
+    self.ReactiveTableVM.DelegateSubject = [RACSubject subject];
+    __weak __typeof(self) weakSelf = self;
+   [self.ReactiveTableVM.DelegateSubject subscribeNext:^(id x) {
+         LYQReactiveUniversalUseViewController *ctl = (LYQReactiveUniversalUseViewController *) [LYQReactiveUniversalUseViewController pushToVctlFromCurrentCtl:self toCtlBlcok:^(UIViewController *toCtl) {
+            LYQReactiveUniversalUseViewController *ctl = ( LYQReactiveUniversalUseViewController *)toCtl;
+             ctl.title = x;
+        }];
+      weakSelf.ReactiveTableVM.redV = ctl;
+ 
+   }];
     [self.view addSubview:self.tableView];
 }
 

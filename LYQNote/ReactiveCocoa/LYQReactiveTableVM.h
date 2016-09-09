@@ -9,11 +9,11 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 #import "ReactiveCocoa-umbrella.h"
+#import "LYQReactiveUniversalUseViewController.h"
 @interface LYQReactiveTableVM : NSObject<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic, strong) NSArray *dataArr;
+@property (nonatomic, strong) RACSubject *DelegateSubject;
 
-@property (nonatomic, strong) RACSignal *signal;
-@property (nonatomic, strong) RACSubject *subject;
-@property (nonatomic, strong) RACReplaySubject *replaySubject;
-@property (nonatomic, strong) RACCommand *command;
+@property (nonatomic, strong) LYQReactiveUniversalUseViewController *redV;
+
 @end
