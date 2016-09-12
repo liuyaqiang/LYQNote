@@ -19,6 +19,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>MJRefresh.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>NSDate-Extensions.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -57,7 +62,22 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>1CB5EBD4D8481AD02C3FEBBD9CB00EB0</key>
+		<key>29DD99664D189A7CA206368F493B1E0B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>532EDEEAB3731CCE4B9EC1BBCE2559CF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8C5C40960D02BBD37B4368F43FAD707A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>927DBBDD29BE78CDDDEA98F9528C550B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -72,17 +92,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>AFBD951DFD2B969A2BE302BFB335D8D8</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
 		<key>C6CEE7BEADAD8E11590F1C4ACF7C4BCC</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>DA4410201DCF7D466C413F2891C53D9B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -92,7 +102,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>DBB4D6AD700C1FAF6E2E175D046243AA</key>
+		<key>E05A5582200336E39703CF62AA0ABDC6</key>
 		<dict>
 			<key>primary</key>
 			<true/>

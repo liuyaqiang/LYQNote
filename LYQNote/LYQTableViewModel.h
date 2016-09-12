@@ -9,8 +9,22 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 #import "ReactiveCocoa-umbrella.h"
+
+typedef NS_ENUM(NSInteger,NoteSectionTitleEnum){
+    NoteSectionTitleEnumFunction,
+    NoteSectionTitleEnumLinkCoding,
+    NoteSectionTitleEnumTextColorMask,
+    NoteSectionTitleEnumValueForKeyPath,
+    NoteSectionTitleEnumRuntime,
+    NoteSectionTitleEnumReactiveCocoa,
+    NoteSectionTitleEnumCoreImg
+};
+
 @interface LYQTableViewModel : NSObject<UITableViewDelegate, UITableViewDataSource>
 @property (nonatomic, strong) NSArray *dataArr;
-@property (nonatomic, strong) NSDictionary *titleDic;
 @property (nonatomic, strong) RACSubject *DelegateSubject;
+
++ (NSString *)StringForTitleEnum:(NoteSectionTitleEnum) title;
++ (Class)ClassForTitleEnum:(NoteSectionTitleEnum) title;
+
 @end

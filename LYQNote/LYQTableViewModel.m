@@ -75,9 +75,10 @@
 - (void)customCellWithCell:(UITableViewCell *)cell IndexPath:(NSIndexPath *)indexPath
 {
     NSArray *rowArr = self.dataArr[indexPath.section];
-    NSString *text = rowArr[indexPath.row];
-    cell.textLabel.text = self.titleDic[text];
-    cell.detailTextLabel.text = text;
+    NoteSectionTitleEnum title =[rowArr[indexPath.row] integerValue];
+    NSString *text = [[self class] StringForTitleEnum:title];
+    cell.textLabel.text = text;
+    cell.detailTextLabel.text = NSStringFromClass([[self class]ClassForTitleEnum:title]);
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
@@ -89,11 +90,95 @@
 - (void)selectCellWithIndextPath:(NSIndexPath *)indexPath
 {
     NSArray *rowArr = self.dataArr[indexPath.section];
-    NSString *text = rowArr[indexPath.row];
+    NoteSectionTitleEnum title =[rowArr[indexPath.row] integerValue];
     if (self.DelegateSubject) {
         // 有值，才需要通知
-        [self.DelegateSubject sendNext:text];
+        [self.DelegateSubject sendNext:@(title)];
         
     }
+}
+
++ (NSString *)StringForTitleEnum:(NoteSectionTitleEnum) title
+{
+    switch (title) {
+        case NoteSectionTitleEnumFunction: {
+            return @"函数式编程";
+
+            break;
+        }
+        case NoteSectionTitleEnumLinkCoding: {
+            return @"链接式编程";
+
+            break;
+        }
+        case NoteSectionTitleEnumTextColorMask: {
+            return @"颜色";
+
+            break;
+        }
+        case NoteSectionTitleEnumValueForKeyPath: {
+            return @"valueForKeyPath";
+
+            break;
+        }
+        case NoteSectionTitleEnumRuntime: {
+            return @"runtime";
+
+            break;
+        }
+        case NoteSectionTitleEnumReactiveCocoa: {
+            return @"reactiveCocoa";
+
+            break;
+        }
+        case NoteSectionTitleEnumCoreImg: {
+            return @"coreImg";
+
+            break;
+        }
+    }
+
+}
+
++ (Class)ClassForTitleEnum:(NoteSectionTitleEnum) title
+{
+    switch (title) {
+        case NoteSectionTitleEnumFunction: {
+            return [LYQFunctionCodingViewController class];
+
+            break;
+        }
+        case NoteSectionTitleEnumLinkCoding: {
+            return [LYQLinkCodingViewController class];
+
+            break;
+        }
+        case NoteSectionTitleEnumTextColorMask: {
+            return [LYQTextColorMaskViewController class];
+
+            break;
+        }
+        case NoteSectionTitleEnumValueForKeyPath: {
+            return [LYQValueForKeyPathViewController class];
+
+            break;
+        }
+        case NoteSectionTitleEnumRuntime: {
+            return [LYQRuntimeViewController class];
+
+            break;
+        }
+        case NoteSectionTitleEnumReactiveCocoa: {
+            return [LYQReactiveCocoaViewController class];
+
+            break;
+        }
+        case NoteSectionTitleEnumCoreImg: {
+            return [LYQCoreImgViewController class];
+
+            break;
+        }
+    }
+
 }
 @end

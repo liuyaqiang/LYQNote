@@ -8,4 +8,5 @@ target 'LYQNote' do
   pod 'NSDate-Extensions', '~>0.0.1'
   pod 'SDWebImage'
   pod 'ReactiveCocoa'
+  pod 'MJRefresh' 
 end

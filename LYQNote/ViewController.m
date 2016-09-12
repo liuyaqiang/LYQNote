@@ -19,18 +19,16 @@
 //VM
 #import "LYQTableViewModel.h"
 
+
 @interface ViewController ()
 {
     LYQValueForKeyPathViewController *vkpClt;
     LYQTableViewModel *tableViewM;
-    NSString *functionStr, *linkCodingStr, *textColorMaskStr, *valueForKeyPathStr, *runtimeStr, *reactiveCocoaStr, *coreImgStr;
+//    NSString *functionStr, *linkCodingStr, *textColorMaskStr, *valueForKeyPathStr, *runtimeStr, *reactiveCocoaStr, *coreImgStr;
     
 }
 @property (nonatomic, strong) UITableView *tableView;
-@property (nonatomic, strong) NSDictionary *titleDic;
 @property (nonatomic, strong) NSArray *dataArr;
-
-
 @end
 
 @implementation ViewController
@@ -42,13 +40,13 @@
     tableViewM = [[LYQTableViewModel alloc]init];
     tableViewM.DelegateSubject  = [RACSubject subject];
     [tableViewM.DelegateSubject subscribeNext:^(id x) {
-        [[(BaseViewController *)NSClassFromString(x) class] pushToVctlFromCurrentCtl:self toCtlBlcok:^(UIViewController *toCtl) {
-            toCtl.title = [self.titleDic valueForKey:x];
+         [[LYQTableViewModel ClassForTitleEnum:[x integerValue]] pushToVctlFromCurrentCtl:self toCtlBlcok:^(UIViewController *toCtl) {
+            toCtl.title = [LYQTableViewModel StringForTitleEnum:[x integerValue]];
         }];
     }];
-    tableViewM.titleDic = self.titleDic;
     tableViewM.dataArr = self.dataArr;
     [self.view addSubview:self.tableView];
+
 }
 - (void)viewWillAppear:(BOOL)animated
 {
@@ -71,32 +69,18 @@
 - (NSArray *)dataArr
 {
     if (!_dataArr) {
-        _dataArr = @[@[NSStringFromClass([LYQValueForKeyPathViewController class])],
-                     @[NSStringFromClass([LYQTextColorMaskViewController class])],
-                     @[NSStringFromClass([LYQRuntimeViewController class])],
-                     @[NSStringFromClass([LYQFunctionCodingViewController class])],
-                     @[NSStringFromClass([LYQLinkCodingViewController class])],
-                     @[NSStringFromClass([LYQReactiveCocoaViewController class])],
-                     @[NSStringFromClass([LYQCoreImgViewController class])]
+        _dataArr = @[@[@(NoteSectionTitleEnumFunction)],
+                     @[@(NoteSectionTitleEnumLinkCoding)],
+                     @[@(NoteSectionTitleEnumTextColorMask)],
+                     @[@(NoteSectionTitleEnumValueForKeyPath)],
+                     @[@(NoteSectionTitleEnumRuntime)],
+                     @[@(NoteSectionTitleEnumReactiveCocoa)],
+                     @[@(NoteSectionTitleEnumCoreImg)]
                      ];
 
     }
     return _dataArr;
 }
-- (NSDictionary *)titleDic
-{
-    if (!_titleDic) {
-        functionStr = @"函数式编程", linkCodingStr = @"链接式编程", textColorMaskStr = @"字体颜色覆盖", valueForKeyPathStr = @"valueForKeyPath", runtimeStr = @"runtime", reactiveCocoaStr = @"reactiveCocoa" ,coreImgStr = @"coreImg";
-        _titleDic = @{
-                      NSStringFromClass([LYQValueForKeyPathViewController class]) : valueForKeyPathStr,
-                      NSStringFromClass([LYQTextColorMaskViewController class]) :textColorMaskStr,
-                      NSStringFromClass([LYQRuntimeViewController class]) : runtimeStr,
-                      NSStringFromClass([LYQFunctionCodingViewController class]) : functionStr,
-                      NSStringFromClass([LYQLinkCodingViewController class]) : linkCodingStr,
-                      NSStringFromClass([LYQReactiveCocoaViewController class]) : reactiveCocoaStr,
-                      NSStringFromClass([LYQCoreImgViewController class]) : coreImgStr
-                      };
-    }
-    return _titleDic;
-}
+
+
 @end
