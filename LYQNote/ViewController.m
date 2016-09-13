@@ -40,8 +40,8 @@
     tableViewM = [[LYQTableViewModel alloc]init];
     tableViewM.DelegateSubject  = [RACSubject subject];
     [tableViewM.DelegateSubject subscribeNext:^(id x) {
-         [[LYQTableViewModel ClassForTitleEnum:[x integerValue]] pushToVctlFromCurrentCtl:self toCtlBlcok:^(UIViewController *toCtl) {
-            toCtl.title = [LYQTableViewModel StringForTitleEnum:[x integerValue]];
+         [NSClassFromNoteSectionTitleEnum([x integerValue])pushToVctlFromCurrentCtl:self toCtlBlcok:^(UIViewController *toCtl) {
+            toCtl.title = NSStringFromNoteSectionTitleEnum([x integerValue]);
         }];
     }];
     tableViewM.dataArr = self.dataArr;
@@ -51,7 +51,6 @@
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
- 
 }
 
 #pragma mark - Get

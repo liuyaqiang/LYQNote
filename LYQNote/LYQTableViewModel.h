@@ -19,12 +19,12 @@ typedef NS_ENUM(NSInteger,NoteSectionTitleEnum){
     NoteSectionTitleEnumReactiveCocoa,
     NoteSectionTitleEnumCoreImg
 };
-
+FOUNDATION_EXPORT NSString *NSStringFromNoteSectionTitleEnum(NoteSectionTitleEnum title);
+FOUNDATION_EXPORT Class NSClassFromNoteSectionTitleEnum(NoteSectionTitleEnum title);
 @interface LYQTableViewModel : NSObject<UITableViewDelegate, UITableViewDataSource>
 @property (nonatomic, strong) NSArray *dataArr;
 @property (nonatomic, strong) RACSubject *DelegateSubject;
 
-+ (NSString *)StringForTitleEnum:(NoteSectionTitleEnum) title;
-+ (Class)ClassForTitleEnum:(NoteSectionTitleEnum) title;
+
 
 @end

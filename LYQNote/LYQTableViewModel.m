@@ -24,7 +24,7 @@
 {
     self = [super init];
     if (self) {
-        
+    
     }
     return self;
 }
@@ -76,9 +76,9 @@
 {
     NSArray *rowArr = self.dataArr[indexPath.section];
     NoteSectionTitleEnum title =[rowArr[indexPath.row] integerValue];
-    NSString *text = [[self class] StringForTitleEnum:title];
+    NSString *text = NSStringFromNoteSectionTitleEnum(title);
     cell.textLabel.text = text;
-    cell.detailTextLabel.text = NSStringFromClass([[self class]ClassForTitleEnum:title]);
+    cell.detailTextLabel.text = NSStringFromClass(NSClassFromNoteSectionTitleEnum(title));
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
@@ -98,7 +98,7 @@
     }
 }
 
-+ (NSString *)StringForTitleEnum:(NoteSectionTitleEnum) title
+NSString *NSStringFromNoteSectionTitleEnum(NoteSectionTitleEnum title)
 {
     switch (title) {
         case NoteSectionTitleEnumFunction: {
@@ -140,7 +140,7 @@
 
 }
 
-+ (Class)ClassForTitleEnum:(NoteSectionTitleEnum) title
+Class NSClassFromNoteSectionTitleEnum(NoteSectionTitleEnum title)
 {
     switch (title) {
         case NoteSectionTitleEnumFunction: {
