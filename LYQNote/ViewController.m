@@ -15,18 +15,15 @@
 #import "LYQRuntimeViewController.h"
 #import "LYQReactiveCocoaViewController.h"
 #import "LYQCoreImgViewController.h"
-
 //VM
 #import "LYQTableViewModel.h"
-
 
 @interface ViewController ()
 {
     LYQValueForKeyPathViewController *vkpClt;
     LYQTableViewModel *tableViewM;
-//    NSString *functionStr, *linkCodingStr, *textColorMaskStr, *valueForKeyPathStr, *runtimeStr, *reactiveCocoaStr, *coreImgStr;
-    
 }
+
 @property (nonatomic, strong) UITableView *tableView;
 @property (nonatomic, strong) NSArray *dataArr;
 @end
@@ -37,20 +34,25 @@
     [super viewDidLoad];
     self.title = @"LYQNote";
     self.view.backgroundColor = [UIColor lightGrayColor];
+    self.navigationController.hidesBarsOnSwipe = YES;
+
     tableViewM = [[LYQTableViewModel alloc]init];
     tableViewM.DelegateSubject  = [RACSubject subject];
-    [tableViewM.DelegateSubject subscribeNext:^(id x) {
+    [tableViewM.DelegateSubject subscribeNext:^(id x) {        
          [NSClassFromNoteSectionTitleEnum([x integerValue])pushToVctlFromCurrentCtl:self toCtlBlcok:^(UIViewController *toCtl) {
             toCtl.title = NSStringFromNoteSectionTitleEnum([x integerValue]);
         }];
     }];
     tableViewM.dataArr = self.dataArr;
+    self.tableView.refreshControl = nil;
     [self.view addSubview:self.tableView];
+    
 
 }
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
+//    self.view.backgroundColor = [UIColor blueColor];
 }
 
 #pragma mark - Get

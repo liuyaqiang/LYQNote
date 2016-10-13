@@ -7,6 +7,7 @@ target 'LYQNote' do
   pod 'MBProgressHUD', '~> 1.0'
   pod 'NSDate-Extensions', '~>0.0.1'
   pod 'SDWebImage'
-  pod 'ReactiveCocoa'
   pod 'MJRefresh' 
+  pod 'ReactiveCocoa'
+  pod 'FMDB'
 end

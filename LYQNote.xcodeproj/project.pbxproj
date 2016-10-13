@@ -41,6 +41,10 @@
 		B979674D1D867D9500041DCE /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = B979674C1D867D9500041DCE /* Book.m */; };
 		B98EEED81D7834D500533494 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B98EEED61D7834D500533494 /* LaunchScreen.storyboard */; };
 		B98EEEDD1D78379200533494 /* launchScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = B98EEEDC1D78379200533494 /* launchScreen.png */; };
+		B998CD8F1DACF17E004D35F6 /* JSPatchPlatform.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B998CD8E1DACF17E004D35F6 /* JSPatchPlatform.framework */; };
+		B9D7A43D1DAF334B0096A096 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B9D7A43C1DAF334B0096A096 /* libz.tbd */; };
+		B9D7A43F1DAF33610096A096 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9D7A43E1DAF33610096A096 /* JavaScriptCore.framework */; };
+		B9D7A4441DAF62CE0096A096 /* main.js in Resources */ = {isa = PBXBuildFile; fileRef = B9D7A4431DAF62CE0096A096 /* main.js */; };
 		C0C4EA3F258BEC8B4E4DBAA9 /* Pods_LYQNote.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A99A0A9B785740BC09C4185 /* Pods_LYQNote.framework */; };
 /* End PBXBuildFile section */
 
@@ -128,6 +132,11 @@
 		B979674C1D867D9500041DCE /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
 		B98EEED71D7834D500533494 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B98EEEDC1D78379200533494 /* launchScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launchScreen.png; sourceTree = "<group>"; };
+		B998CD8E1DACF17E004D35F6 /* JSPatchPlatform.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = JSPatchPlatform.framework; sourceTree = "<group>"; };
+		B9D7A43C1DAF334B0096A096 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		B9D7A43E1DAF33610096A096 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		B9D7A4401DAF5AAF0096A096 /* LYQNote.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LYQNote.entitlements; sourceTree = "<group>"; };
+		B9D7A4431DAF62CE0096A096 /* main.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; name = main.js; path = LYQNote/main.js; sourceTree = "<group>"; };
 		F03DABA4BCF719737FBAC126 /* Pods-LYQNote.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYQNote.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LYQNote/Pods-LYQNote.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -136,7 +145,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9D7A43F1DAF33610096A096 /* JavaScriptCore.framework in Frameworks */,
+				B9D7A43D1DAF334B0096A096 /* libz.tbd in Frameworks */,
 				C0C4EA3F258BEC8B4E4DBAA9 /* Pods_LYQNote.framework in Frameworks */,
+				B998CD8F1DACF17E004D35F6 /* JSPatchPlatform.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -169,6 +181,9 @@
 		6D1D350E16806957164C4A7B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B9D7A43E1DAF33610096A096 /* JavaScriptCore.framework */,
+				B9D7A43C1DAF334B0096A096 /* libz.tbd */,
+				B998CD8E1DACF17E004D35F6 /* JSPatchPlatform.framework */,
 				3A99A0A9B785740BC09C4185 /* Pods_LYQNote.framework */,
 			);
 			name = Frameworks;
@@ -177,6 +192,7 @@
 		B906CE781D7572B0007A1533 = {
 			isa = PBXGroup;
 			children = (
+				B9D7A4431DAF62CE0096A096 /* main.js */,
 				B906CE831D7572B0007A1533 /* LYQNote */,
 				B906CE9D1D7572B0007A1533 /* LYQNoteTests */,
 				B906CEA81D7572B0007A1533 /* LYQNoteUITests */,
@@ -199,6 +215,7 @@
 		B906CE831D7572B0007A1533 /* LYQNote */ = {
 			isa = PBXGroup;
 			children = (
+				B9D7A4401DAF5AAF0096A096 /* LYQNote.entitlements */,
 				B98EEEDB1D78378D00533494 /* Asset */,
 				B906CE871D7572B0007A1533 /* AppDelegate.h */,
 				B906CE881D7572B0007A1533 /* AppDelegate.m */,
@@ -471,6 +488,13 @@
 				TargetAttributes = {
 					B906CE801D7572B0007A1533 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = SQ46ZJ898W;
+						LastSwiftMigration = 0800;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 					B906CE991D7572B0007A1533 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -509,6 +533,7 @@
 			files = (
 				B97967321D825F5800041DCE /* LYQReactiveUniversalUseViewController.xib in Resources */,
 				B97967331D825F5800041DCE /* mvvm+最快让你上手ReactiveCocoa之进阶篇 - 简书.pdf in Resources */,
+				B9D7A4441DAF62CE0096A096 /* main.js in Resources */,
 				B97966FE1D825BE600041DCE /* heart.gif in Resources */,
 				B906CE911D7572B0007A1533 /* Assets.xcassets in Resources */,
 				B906CE8F1D7572B0007A1533 /* Main.storyboard in Resources */,
@@ -752,11 +777,19 @@
 			baseConfigurationReference = F03DABA4BCF719737FBAC126 /* Pods-LYQNote.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = LYQNote/LYQNote.entitlements;
+				DEVELOPMENT_TEAM = SQ46ZJ898W;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PREFIX_HEADER = /Users/liuyaqiang/Desktop/LYQNote/LYQNote/LYQPrefixHeader.pch;
 				INFOPLIST_FILE = LYQNote/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = liuyaqiang.LYQNote;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bitrice.evclub;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -765,11 +798,19 @@
 			baseConfigurationReference = 30F84CB16FC46F412A5C224E /* Pods-LYQNote.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = LYQNote/LYQNote.entitlements;
+				DEVELOPMENT_TEAM = SQ46ZJ898W;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PREFIX_HEADER = /Users/liuyaqiang/Desktop/LYQNote/LYQNote/LYQPrefixHeader.pch;
 				INFOPLIST_FILE = LYQNote/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = liuyaqiang.LYQNote;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bitrice.evclub;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};

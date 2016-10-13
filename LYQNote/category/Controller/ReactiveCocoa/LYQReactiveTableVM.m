@@ -358,7 +358,9 @@ static int i;
 
 - (void)RACSubjectSend
 {
-    [self.subject sendNext:self.signal];
+    [self.subject sendNext:@"1"];
+
+//    [self.subject sendNext:self.signal];
     // 2.订阅信号
     //        [self.subject subscribeNext:^(id x) {
     //            // block调用时刻：当信号发出新值，就会调用.
@@ -799,9 +801,9 @@ static int i;
  // 只要文本框文字改变，就会修改label的文字
     RAC(_redV.testLabel,text) = _redV.textField.rac_textSignal;
 // 8.2 RACObserve(self, name):监听某个对象的某个属性,返回的是信号。
- 
+    RAC(_redV.testLabel,text) = RACObserve(_redV, center);
      [RACObserve(_redV, center) subscribeNext:^(id x) {
-     
+
      NSLog(@"centerStr new vale:%@",x);
      }];
 // 8.3  @weakify(Obj)和@strongify(Obj),一般两个都是配套使用,在主头文件(ReactiveCocoa.h)中并没有导入，需要自己手动导入，RACEXTScope.h才可以使用。但是每次导入都非常麻烦，只需要在主头文件自己导入就好了。

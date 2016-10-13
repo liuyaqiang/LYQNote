@@ -14,12 +14,12 @@
 #import "LYQRuntimeViewController.h"
 #import "LYQReactiveCocoaViewController.h"
 #import "LYQCoreImgViewController.h"
-
 @interface LYQTableViewModel()
 
 @end
 
 @implementation LYQTableViewModel
+
 - (instancetype)init
 {
     self = [super init];
