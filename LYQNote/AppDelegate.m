@@ -23,8 +23,9 @@
     [JSPatch testScriptInBundle];
 #else
     [JSPatch startWithAppKey:@"097ccfa797c45713"];
+    [JSPatch sync];
 #endif
-   [JSPatch sync];
+
 
     return YES;
 }
