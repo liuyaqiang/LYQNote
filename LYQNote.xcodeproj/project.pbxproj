@@ -15,6 +15,9 @@
 		B906CEAA1D7572B0007A1533 /* LYQNoteUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B906CEA91D7572B0007A1533 /* LYQNoteUITests.m */; };
 		B906CEE31D76B89A007A1533 /* LYQTableViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B906CEE21D76B89A007A1533 /* LYQTableViewModel.m */; };
 		B9714B871D77FC8D009AE3B2 /* MBProgressHUD+LYQ.m in Sources */ = {isa = PBXBuildFile; fileRef = B9714B861D77FC8D009AE3B2 /* MBProgressHUD+LYQ.m */; };
+		B977CC2D1DB61BD800B9BC8E /* LYQCountDownViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B977CC2B1DB61BD800B9BC8E /* LYQCountDownViewController.m */; };
+		B977CC2E1DB61BD800B9BC8E /* LYQCountDownViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B977CC2C1DB61BD800B9BC8E /* LYQCountDownViewController.xib */; };
+		B977CC311DB61D1400B9BC8E /* UIButton+CountDown.m in Sources */ = {isa = PBXBuildFile; fileRef = B977CC301DB61D1400B9BC8E /* UIButton+CountDown.m */; };
 		B97966FE1D825BE600041DCE /* heart.gif in Resources */ = {isa = PBXBuildFile; fileRef = B97966FD1D825BE600041DCE /* heart.gif */; };
 		B97967021D825F5000041DCE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B97967011D825F5000041DCE /* ViewController.m */; };
 		B979672A1D825F5800041DCE /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B97967051D825F5800041DCE /* BaseViewController.m */; };
@@ -88,6 +91,11 @@
 		B9714B861D77FC8D009AE3B2 /* MBProgressHUD+LYQ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+LYQ.m"; sourceTree = "<group>"; };
 		B9714B891D77FCE2009AE3B2 /* LYQUniversalDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYQUniversalDefine.h; sourceTree = "<group>"; };
 		B9714B8A1D77FD2B009AE3B2 /* LYQPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYQPrefixHeader.pch; sourceTree = "<group>"; };
+		B977CC2A1DB61BD800B9BC8E /* LYQCountDownViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYQCountDownViewController.h; sourceTree = "<group>"; };
+		B977CC2B1DB61BD800B9BC8E /* LYQCountDownViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYQCountDownViewController.m; sourceTree = "<group>"; };
+		B977CC2C1DB61BD800B9BC8E /* LYQCountDownViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LYQCountDownViewController.xib; sourceTree = "<group>"; };
+		B977CC2F1DB61D1400B9BC8E /* UIButton+CountDown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+CountDown.h"; sourceTree = "<group>"; };
+		B977CC301DB61D1400B9BC8E /* UIButton+CountDown.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+CountDown.m"; sourceTree = "<group>"; };
 		B97966FD1D825BE600041DCE /* heart.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = heart.gif; sourceTree = "<group>"; };
 		B97967001D825F5000041DCE /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		B97967011D825F5000041DCE /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
@@ -281,6 +289,18 @@
 			path = category;
 			sourceTree = "<group>";
 		};
+		B977CC241DB6190300B9BC8E /* 倒计时 */ = {
+			isa = PBXGroup;
+			children = (
+				B977CC2A1DB61BD800B9BC8E /* LYQCountDownViewController.h */,
+				B977CC2B1DB61BD800B9BC8E /* LYQCountDownViewController.m */,
+				B977CC2C1DB61BD800B9BC8E /* LYQCountDownViewController.xib */,
+				B977CC2F1DB61D1400B9BC8E /* UIButton+CountDown.h */,
+				B977CC301DB61D1400B9BC8E /* UIButton+CountDown.m */,
+			);
+			path = "倒计时";
+			sourceTree = "<group>";
+		};
 		B97967031D825F5800041DCE /* Controller */ = {
 			isa = PBXGroup;
 			children = (
@@ -293,6 +313,7 @@
 				B979671D1D825F5800041DCE /* 函数式编程 */,
 				B97967221D825F5800041DCE /* 字体变颜色 */,
 				B97967251D825F5800041DCE /* 链接式编程 */,
+				B977CC241DB6190300B9BC8E /* 倒计时 */,
 			);
 			name = Controller;
 			path = category/Controller;
@@ -532,6 +553,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B97967321D825F5800041DCE /* LYQReactiveUniversalUseViewController.xib in Resources */,
+				B977CC2E1DB61BD800B9BC8E /* LYQCountDownViewController.xib in Resources */,
 				B97967331D825F5800041DCE /* mvvm+最快让你上手ReactiveCocoa之进阶篇 - 简书.pdf in Resources */,
 				B9D7A4441DAF62CE0096A096 /* main.js in Resources */,
 				B97966FE1D825BE600041DCE /* heart.gif in Resources */,
@@ -616,8 +638,10 @@
 			files = (
 				B97967391D825F5800041DCE /* LYQTextColorMaskViewController.m in Sources */,
 				B906CEE31D76B89A007A1533 /* LYQTableViewModel.m in Sources */,
+				B977CC2D1DB61BD800B9BC8E /* LYQCountDownViewController.m in Sources */,
 				B97967311D825F5800041DCE /* LYQReactiveUniversalUseViewController.m in Sources */,
 				B97967351D825F5800041DCE /* LYQRuntimeViewController.m in Sources */,
+				B977CC311DB61D1400B9BC8E /* UIButton+CountDown.m in Sources */,
 				B979672E1D825F5800041DCE /* UIImage+Filters.m in Sources */,
 				B97967371D825F5800041DCE /* LYQFunctionCodingCalculator.m in Sources */,
 				B97967381D825F5800041DCE /* LYQFunctionCodingViewController.m in Sources */,

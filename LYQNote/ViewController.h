@@ -8,9 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import "LYQGlobalHeader.h"
-
 @interface ViewController : UIViewController
-
 
 @end
 

@@ -46,9 +46,8 @@
     tableViewM.dataArr = self.dataArr;
     self.tableView.refreshControl = nil;
     [self.view addSubview:self.tableView];
-    
-
 }
+
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
@@ -76,7 +75,8 @@
                      @[@(NoteSectionTitleEnumValueForKeyPath)],
                      @[@(NoteSectionTitleEnumRuntime)],
                      @[@(NoteSectionTitleEnumReactiveCocoa)],
-                     @[@(NoteSectionTitleEnumCoreImg)]
+                     @[@(NoteSectionTitleEnumCoreImg)],
+                     @[@(NoteSectionTitleEnumCountDown)]
                      ];
 
     }

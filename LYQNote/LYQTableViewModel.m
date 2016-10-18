@@ -14,6 +14,8 @@
 #import "LYQRuntimeViewController.h"
 #import "LYQReactiveCocoaViewController.h"
 #import "LYQCoreImgViewController.h"
+#import "LYQCountDownViewController.h"
+
 @interface LYQTableViewModel()
 
 @end
@@ -136,6 +138,10 @@ NSString *NSStringFromNoteSectionTitleEnum(NoteSectionTitleEnum title)
 
             break;
         }
+        case NoteSectionTitleEnumCountDown:{
+            return @"倒计时";
+            break;
+        }
     }
 
 }
@@ -176,6 +182,10 @@ Class NSClassFromNoteSectionTitleEnum(NoteSectionTitleEnum title)
         case NoteSectionTitleEnumCoreImg: {
             return [LYQCoreImgViewController class];
 
+            break;
+        }
+        case NoteSectionTitleEnumCountDown:{
+            return [LYQCountDownViewController class];
             break;
         }
     }
