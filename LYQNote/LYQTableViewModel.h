@@ -18,7 +18,8 @@ typedef NS_ENUM(NSInteger,NoteSectionTitleEnum){
     NoteSectionTitleEnumRuntime,
     NoteSectionTitleEnumReactiveCocoa,
     NoteSectionTitleEnumCoreImg,
-    NoteSectionTitleEnumCountDown
+    NoteSectionTitleEnumCountDown,
+    NoteSectionTitleEnumPaintCode
 };
 FOUNDATION_EXPORT NSString *NSStringFromNoteSectionTitleEnum(NoteSectionTitleEnum title);
 FOUNDATION_EXPORT Class NSClassFromNoteSectionTitleEnum(NoteSectionTitleEnum title);

@@ -10,4 +10,5 @@ target 'LYQNote' do
   pod 'MJRefresh' 
   pod 'ReactiveCocoa'
   pod 'FMDB'
+  pod 'Masonry'
 end

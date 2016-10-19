@@ -14,6 +14,7 @@
 		B906CE9F1D7572B0007A1533 /* LYQNoteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B906CE9E1D7572B0007A1533 /* LYQNoteTests.m */; };
 		B906CEAA1D7572B0007A1533 /* LYQNoteUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B906CEA91D7572B0007A1533 /* LYQNoteUITests.m */; };
 		B906CEE31D76B89A007A1533 /* LYQTableViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B906CEE21D76B89A007A1533 /* LYQTableViewModel.m */; };
+		B93312221DB7536100269551 /* LYQPaintCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B93312211DB7536100269551 /* LYQPaintCodeViewController.m */; };
 		B9714B871D77FC8D009AE3B2 /* MBProgressHUD+LYQ.m in Sources */ = {isa = PBXBuildFile; fileRef = B9714B861D77FC8D009AE3B2 /* MBProgressHUD+LYQ.m */; };
 		B977CC2D1DB61BD800B9BC8E /* LYQCountDownViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B977CC2B1DB61BD800B9BC8E /* LYQCountDownViewController.m */; };
 		B977CC2E1DB61BD800B9BC8E /* LYQCountDownViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B977CC2C1DB61BD800B9BC8E /* LYQCountDownViewController.xib */; };
@@ -87,6 +88,8 @@
 		B906CEE11D76B89A007A1533 /* LYQTableViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYQTableViewModel.h; sourceTree = "<group>"; };
 		B906CEE21D76B89A007A1533 /* LYQTableViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYQTableViewModel.m; sourceTree = "<group>"; };
 		B90E07B41D76E51F00FDF25B /* LYQGlobalHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYQGlobalHeader.h; sourceTree = "<group>"; };
+		B93312201DB7536100269551 /* LYQPaintCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYQPaintCodeViewController.h; sourceTree = "<group>"; };
+		B93312211DB7536100269551 /* LYQPaintCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYQPaintCodeViewController.m; sourceTree = "<group>"; };
 		B9714B851D77FC8D009AE3B2 /* MBProgressHUD+LYQ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+LYQ.h"; sourceTree = "<group>"; };
 		B9714B861D77FC8D009AE3B2 /* MBProgressHUD+LYQ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+LYQ.m"; sourceTree = "<group>"; };
 		B9714B891D77FCE2009AE3B2 /* LYQUniversalDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYQUniversalDefine.h; sourceTree = "<group>"; };
@@ -280,6 +283,15 @@
 			name = VM;
 			sourceTree = "<group>";
 		};
+		B933121F1DB7534A00269551 /* PaintCode */ = {
+			isa = PBXGroup;
+			children = (
+				B93312201DB7536100269551 /* LYQPaintCodeViewController.h */,
+				B93312211DB7536100269551 /* LYQPaintCodeViewController.m */,
+			);
+			path = PaintCode;
+			sourceTree = "<group>";
+		};
 		B9714B841D77FBBC009AE3B2 /* category */ = {
 			isa = PBXGroup;
 			children = (
@@ -314,6 +326,7 @@
 				B97967221D825F5800041DCE /* 字体变颜色 */,
 				B97967251D825F5800041DCE /* 链接式编程 */,
 				B977CC241DB6190300B9BC8E /* 倒计时 */,
+				B933121F1DB7534A00269551 /* PaintCode */,
 			);
 			name = Controller;
 			path = category/Controller;
@@ -658,6 +671,7 @@
 				B979674A1D8655C200041DCE /* LYQVMTestVM.m in Sources */,
 				B979672F1D825F5800041DCE /* LYQReactiveCocoaViewController.m in Sources */,
 				B97967471D864E4600041DCE /* LYQMVVMTestViewController.m in Sources */,
+				B93312221DB7536100269551 /* LYQPaintCodeViewController.m in Sources */,
 				B97967401D825F9A00041DCE /* EVGIFView.m in Sources */,
 				B97967021D825F5000041DCE /* ViewController.m in Sources */,
 			);

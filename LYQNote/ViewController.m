@@ -76,7 +76,8 @@
                      @[@(NoteSectionTitleEnumRuntime)],
                      @[@(NoteSectionTitleEnumReactiveCocoa)],
                      @[@(NoteSectionTitleEnumCoreImg)],
-                     @[@(NoteSectionTitleEnumCountDown)]
+                     @[@(NoteSectionTitleEnumCountDown)],
+                     @[@(NoteSectionTitleEnumPaintCode)]
                      ];
 
     }
