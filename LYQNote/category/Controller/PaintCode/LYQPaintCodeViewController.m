@@ -97,15 +97,27 @@
 - (void)viewDidAppear:(BOOL)animated
 {
     [super viewDidAppear:animated];
-
+    [self anitmate];
+}
+- (void)anitmate{
     [UIView animateWithDuration:.2f animations:^{
         self.launchView.transform = CGAffineTransformMakeScale(0.2f, 0.2f);
     } completion:^(BOOL finished) {
         [UIView animateWithDuration:.5f animations:^{
             self.launchView.transform = CGAffineTransformMakeScale(6.f, 6.f);
+            self.launchView.alpha = 0.0f;
+            self.view.backgroundColor = [UIColor whiteColor];
         } completion:^(BOOL finished) {
-            [self.launchView removeFromSuperview];
+            dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+                self.launchView.alpha = 1;
+                self.view.backgroundColor = [UIColor blueColor];
+                self.launchView.transform = CGAffineTransformMakeScale(1.0f, 1.0f);
+            });
+            dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(2 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+                [self anitmate];
+            });
         }];
     }];
+
 }
 @end
