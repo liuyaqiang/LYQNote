@@ -16,7 +16,7 @@
 #import "ReactiveCocoa-umbrella.h"
 #import "MJRefresh.h"
 /**
- *  catigory header
+ *  category header
  */
 #import "MBProgressHUD+LYQ.h"
 
