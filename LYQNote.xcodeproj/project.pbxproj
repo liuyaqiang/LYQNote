@@ -16,6 +16,8 @@
 		B906CEE31D76B89A007A1533 /* LYQTableViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B906CEE21D76B89A007A1533 /* LYQTableViewModel.m */; };
 		B93312221DB7536100269551 /* LYQPaintCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B93312211DB7536100269551 /* LYQPaintCodeViewController.m */; };
 		B9552EE11DCB26450073406B /* CLXIbComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = B9552EE01DCB26450073406B /* CLXIbComponent.m */; };
+		B9552F1B1DCB2D870073406B /* LYQIQKeyboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9552F191DCB2D870073406B /* LYQIQKeyboardViewController.m */; };
+		B9552F1C1DCB2D870073406B /* LYQIQKeyboardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9552F1A1DCB2D870073406B /* LYQIQKeyboardViewController.xib */; };
 		B9714B871D77FC8D009AE3B2 /* MBProgressHUD+LYQ.m in Sources */ = {isa = PBXBuildFile; fileRef = B9714B861D77FC8D009AE3B2 /* MBProgressHUD+LYQ.m */; };
 		B977CC2D1DB61BD800B9BC8E /* LYQCountDownViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B977CC2B1DB61BD800B9BC8E /* LYQCountDownViewController.m */; };
 		B977CC2E1DB61BD800B9BC8E /* LYQCountDownViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B977CC2C1DB61BD800B9BC8E /* LYQCountDownViewController.xib */; };
@@ -93,6 +95,9 @@
 		B93312211DB7536100269551 /* LYQPaintCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYQPaintCodeViewController.m; sourceTree = "<group>"; };
 		B9552EDF1DCB26450073406B /* CLXibComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLXibComponent.h; sourceTree = "<group>"; };
 		B9552EE01DCB26450073406B /* CLXIbComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLXIbComponent.m; sourceTree = "<group>"; };
+		B9552F181DCB2D870073406B /* LYQIQKeyboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYQIQKeyboardViewController.h; sourceTree = "<group>"; };
+		B9552F191DCB2D870073406B /* LYQIQKeyboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYQIQKeyboardViewController.m; sourceTree = "<group>"; };
+		B9552F1A1DCB2D870073406B /* LYQIQKeyboardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LYQIQKeyboardViewController.xib; sourceTree = "<group>"; };
 		B9714B851D77FC8D009AE3B2 /* MBProgressHUD+LYQ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+LYQ.h"; sourceTree = "<group>"; };
 		B9714B861D77FC8D009AE3B2 /* MBProgressHUD+LYQ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+LYQ.m"; sourceTree = "<group>"; };
 		B9714B891D77FCE2009AE3B2 /* LYQUniversalDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYQUniversalDefine.h; sourceTree = "<group>"; };
@@ -239,6 +244,7 @@
 				B906CEE01D76B859007A1533 /* VM */,
 				B97967031D825F5800041DCE /* Controller */,
 				B9714B841D77FBBC009AE3B2 /* category */,
+				B9552EE21DCB2C900073406B /* venders */,
 				B906CE8D1D7572B0007A1533 /* Main.storyboard */,
 				B906CE901D7572B0007A1533 /* Assets.xcassets */,
 				B906CE951D7572B0007A1533 /* Info.plist */,
@@ -295,6 +301,24 @@
 			path = PaintCode;
 			sourceTree = "<group>";
 		};
+		B9552EE21DCB2C900073406B /* venders */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = venders;
+			sourceTree = "<group>";
+		};
+		B9552F171DCB2D450073406B /* IQKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				B9552F181DCB2D870073406B /* LYQIQKeyboardViewController.h */,
+				B9552F191DCB2D870073406B /* LYQIQKeyboardViewController.m */,
+				B9552F1A1DCB2D870073406B /* LYQIQKeyboardViewController.xib */,
+			);
+			name = IQKeyboard;
+			path = PaintCode/IQKeyboard;
+			sourceTree = "<group>";
+		};
 		B9714B841D77FBBC009AE3B2 /* category */ = {
 			isa = PBXGroup;
 			children = (
@@ -330,6 +354,7 @@
 				B97967251D825F5800041DCE /* 链接式编程 */,
 				B977CC241DB6190300B9BC8E /* 倒计时 */,
 				B933121F1DB7534A00269551 /* PaintCode */,
+				B9552F171DCB2D450073406B /* IQKeyboard */,
 			);
 			name = Controller;
 			path = category/Controller;
@@ -579,6 +604,7 @@
 				B906CE8F1D7572B0007A1533 /* Main.storyboard in Resources */,
 				B98EEEDD1D78379200533494 /* launchScreen.png in Resources */,
 				B979672C1D825F5800041DCE /* LYQCoreImgViewController.xib in Resources */,
+				B9552F1C1DCB2D870073406B /* LYQIQKeyboardViewController.xib in Resources */,
 				B979672D1D825F5800041DCE /* nyc.jpg in Resources */,
 				B97967341D825F5800041DCE /* 最快让你上手ReactiveCocoa之基础篇 - 简书.pdf in Resources */,
 				B98EEED81D7834D500533494 /* LaunchScreen.storyboard in Resources */,
@@ -662,6 +688,7 @@
 				B977CC311DB61D1400B9BC8E /* UIButton+CountDown.m in Sources */,
 				B979672E1D825F5800041DCE /* UIImage+Filters.m in Sources */,
 				B97967371D825F5800041DCE /* LYQFunctionCodingCalculator.m in Sources */,
+				B9552F1B1DCB2D870073406B /* LYQIQKeyboardViewController.m in Sources */,
 				B97967381D825F5800041DCE /* LYQFunctionCodingViewController.m in Sources */,
 				B979672B1D825F5800041DCE /* LYQCoreImgViewController.m in Sources */,
 				B9552EE11DCB26450073406B /* CLXIbComponent.m in Sources */,

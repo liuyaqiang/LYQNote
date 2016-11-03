@@ -11,4 +11,5 @@ target 'LYQNote' do
   pod 'ReactiveCocoa'
   pod 'FMDB'
   pod 'Masonry'
+  pod "IQKeyboardManager"
 end

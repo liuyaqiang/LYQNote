@@ -16,6 +16,7 @@
 #import "LYQCoreImgViewController.h"
 #import "LYQCountDownViewController.h"
 #import "LYQPaintCodeViewController.h"
+#import "LYQIQKeyboardViewController.h"
 
 @interface LYQTableViewModel()
 
@@ -147,6 +148,10 @@ NSString *NSStringFromNoteSectionTitleEnum(NoteSectionTitleEnum title)
             return @"PaintCode";
             break;
         }
+        case NoteSectionTitleEnumIQKeyboardManager:{
+            return @"QKeyboardManager";
+            break;
+        }
     }
 
 }
@@ -195,6 +200,10 @@ Class NSClassFromNoteSectionTitleEnum(NoteSectionTitleEnum title)
         }
         case NoteSectionTitleEnumPaintCode:{
             return [LYQPaintCodeViewController class];
+            break;
+        }
+        case NoteSectionTitleEnumIQKeyboardManager:{
+            return [LYQIQKeyboardViewController class];
             break;
         }
         

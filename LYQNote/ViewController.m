@@ -77,7 +77,8 @@
                      @[@(NoteSectionTitleEnumReactiveCocoa)],
                      @[@(NoteSectionTitleEnumCoreImg)],
                      @[@(NoteSectionTitleEnumCountDown)],
-                     @[@(NoteSectionTitleEnumPaintCode)]
+                     @[@(NoteSectionTitleEnumPaintCode)],
+                     @[@(NoteSectionTitleEnumIQKeyboardManager)]
                      ];
 
     }
