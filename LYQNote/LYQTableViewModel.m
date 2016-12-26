@@ -17,6 +17,7 @@
 #import "LYQCountDownViewController.h"
 #import "LYQPaintCodeViewController.h"
 #import "LYQIQKeyboardViewController.h"
+#import "LYQCleanEmojiViewController.h"
 
 @interface LYQTableViewModel()
 
@@ -152,6 +153,10 @@ NSString *NSStringFromNoteSectionTitleEnum(NoteSectionTitleEnum title)
             return @"QKeyboardManager";
             break;
         }
+        case NoteSectionTitleEnumCleanEmoji:{
+            return @"CleanEmoji";
+            break;
+        }
     }
 
 }
@@ -206,7 +211,10 @@ Class NSClassFromNoteSectionTitleEnum(NoteSectionTitleEnum title)
             return [LYQIQKeyboardViewController class];
             break;
         }
-        
+        case NoteSectionTitleEnumCleanEmoji:{
+            return [LYQCleanEmojiViewController class];
+            break;
+        }
     }
 
 }

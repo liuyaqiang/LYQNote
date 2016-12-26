@@ -1,22 +1,18 @@
 //
-//  LYQCountDownViewController.m
+//  LYQCleanEmojiViewController.m
 //  LYQNote
 //
-//  Created by 刘亚强 on 2016/10/18.
+//  Created by liuyaqiang on 2016/12/26.
 //  Copyright © 2016年 liuyaqiang. All rights reserved.
 //
 
-#import "LYQCountDownViewController.h"
-#import "UIButton+CountDown.h"
+#import "LYQCleanEmojiViewController.h"
 
-@interface LYQCountDownViewController ()
+@interface LYQCleanEmojiViewController ()
 
 @end
 
-@implementation LYQCountDownViewController
-- (IBAction)countDownClick:(UIButton *)sender {
-    [sender startWithTime:10 title:@"获取验证码" countDownUnit:@"s" mainColor:[UIColor colorWithRed:84/255.0 green:180/255.0 blue:98/255.0 alpha:1.0f] countColor:[UIColor lightGrayColor]];
-}
+@implementation LYQCleanEmojiViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

@@ -9,7 +9,7 @@
 #import "UIButton+CountDown.h"
 
 @implementation UIButton (CountDown)
-- (void)startWithTime:(NSInteger)timeLine title:(NSString *)title countDownTitle:(NSString *)subTitle mainColor:(UIColor *)mColor countColor:(UIColor *)color
+- (void)startWithTime:(NSInteger)timeLine title:(NSString *)title countDownUnit:(NSString *)countDownUnit mainColor:(UIColor *)mColor countColor:(UIColor *)color
 {
     __block NSInteger timeOut = timeLine;
     dispatch_queue_t queue = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
@@ -29,7 +29,7 @@
             NSString *timeStr = [NSString stringWithFormat:@"%0.2d",seconds];
             dispatch_async(dispatch_get_main_queue(), ^{
                 self.backgroundColor = color;
-                [self setTitle:[NSString stringWithFormat:@"%@%@",timeStr,subTitle] forState:UIControlStateNormal];
+                [self setTitle:[NSString stringWithFormat:@"%@%@",timeStr,countDownUnit] forState:UIControlStateNormal];
                 self.userInteractionEnabled = NO;
             });
             timeOut-- ;

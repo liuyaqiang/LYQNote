@@ -14,10 +14,14 @@
 		B906CE9F1D7572B0007A1533 /* LYQNoteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B906CE9E1D7572B0007A1533 /* LYQNoteTests.m */; };
 		B906CEAA1D7572B0007A1533 /* LYQNoteUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B906CEA91D7572B0007A1533 /* LYQNoteUITests.m */; };
 		B906CEE31D76B89A007A1533 /* LYQTableViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B906CEE21D76B89A007A1533 /* LYQTableViewModel.m */; };
+		B92A0DE91E111F5100F17790 /* LYQIQKeyboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B92A0DE71E111F5100F17790 /* LYQIQKeyboardViewController.m */; };
+		B92A0DEA1E111F5100F17790 /* LYQIQKeyboardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B92A0DE81E111F5100F17790 /* LYQIQKeyboardViewController.xib */; };
+		B92A0DEF1E111F9300F17790 /* LYQCleanEmojiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B92A0DED1E111F9300F17790 /* LYQCleanEmojiViewController.m */; };
+		B92A0DF01E111F9300F17790 /* LYQCleanEmojiViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B92A0DEE1E111F9300F17790 /* LYQCleanEmojiViewController.xib */; };
+		B92A0DF31E11203E00F17790 /* UITextField+cleanEmoji.m in Sources */ = {isa = PBXBuildFile; fileRef = B92A0DF21E11203E00F17790 /* UITextField+cleanEmoji.m */; };
+		B92A0DF61E1120C900F17790 /* NSString+cleanEmoji.m in Sources */ = {isa = PBXBuildFile; fileRef = B92A0DF51E1120C900F17790 /* NSString+cleanEmoji.m */; };
 		B93312221DB7536100269551 /* LYQPaintCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B93312211DB7536100269551 /* LYQPaintCodeViewController.m */; };
 		B9552EE11DCB26450073406B /* CLXIbComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = B9552EE01DCB26450073406B /* CLXIbComponent.m */; };
-		B9552F1B1DCB2D870073406B /* LYQIQKeyboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9552F191DCB2D870073406B /* LYQIQKeyboardViewController.m */; };
-		B9552F1C1DCB2D870073406B /* LYQIQKeyboardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B9552F1A1DCB2D870073406B /* LYQIQKeyboardViewController.xib */; };
 		B9714B871D77FC8D009AE3B2 /* MBProgressHUD+LYQ.m in Sources */ = {isa = PBXBuildFile; fileRef = B9714B861D77FC8D009AE3B2 /* MBProgressHUD+LYQ.m */; };
 		B977CC2D1DB61BD800B9BC8E /* LYQCountDownViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B977CC2B1DB61BD800B9BC8E /* LYQCountDownViewController.m */; };
 		B977CC2E1DB61BD800B9BC8E /* LYQCountDownViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B977CC2C1DB61BD800B9BC8E /* LYQCountDownViewController.xib */; };
@@ -91,13 +95,20 @@
 		B906CEE11D76B89A007A1533 /* LYQTableViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYQTableViewModel.h; sourceTree = "<group>"; };
 		B906CEE21D76B89A007A1533 /* LYQTableViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYQTableViewModel.m; sourceTree = "<group>"; };
 		B90E07B41D76E51F00FDF25B /* LYQGlobalHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYQGlobalHeader.h; sourceTree = "<group>"; };
+		B92A0DE61E111F5100F17790 /* LYQIQKeyboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYQIQKeyboardViewController.h; sourceTree = "<group>"; };
+		B92A0DE71E111F5100F17790 /* LYQIQKeyboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYQIQKeyboardViewController.m; sourceTree = "<group>"; };
+		B92A0DE81E111F5100F17790 /* LYQIQKeyboardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LYQIQKeyboardViewController.xib; sourceTree = "<group>"; };
+		B92A0DEC1E111F9300F17790 /* LYQCleanEmojiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYQCleanEmojiViewController.h; sourceTree = "<group>"; };
+		B92A0DED1E111F9300F17790 /* LYQCleanEmojiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYQCleanEmojiViewController.m; sourceTree = "<group>"; };
+		B92A0DEE1E111F9300F17790 /* LYQCleanEmojiViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LYQCleanEmojiViewController.xib; sourceTree = "<group>"; };
+		B92A0DF11E11203E00F17790 /* UITextField+cleanEmoji.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+cleanEmoji.h"; sourceTree = "<group>"; };
+		B92A0DF21E11203E00F17790 /* UITextField+cleanEmoji.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+cleanEmoji.m"; sourceTree = "<group>"; };
+		B92A0DF41E1120C900F17790 /* NSString+cleanEmoji.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+cleanEmoji.h"; sourceTree = "<group>"; };
+		B92A0DF51E1120C900F17790 /* NSString+cleanEmoji.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+cleanEmoji.m"; sourceTree = "<group>"; };
 		B93312201DB7536100269551 /* LYQPaintCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYQPaintCodeViewController.h; sourceTree = "<group>"; };
 		B93312211DB7536100269551 /* LYQPaintCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYQPaintCodeViewController.m; sourceTree = "<group>"; };
 		B9552EDF1DCB26450073406B /* CLXibComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLXibComponent.h; sourceTree = "<group>"; };
 		B9552EE01DCB26450073406B /* CLXIbComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLXIbComponent.m; sourceTree = "<group>"; };
-		B9552F181DCB2D870073406B /* LYQIQKeyboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYQIQKeyboardViewController.h; sourceTree = "<group>"; };
-		B9552F191DCB2D870073406B /* LYQIQKeyboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYQIQKeyboardViewController.m; sourceTree = "<group>"; };
-		B9552F1A1DCB2D870073406B /* LYQIQKeyboardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LYQIQKeyboardViewController.xib; sourceTree = "<group>"; };
 		B9714B851D77FC8D009AE3B2 /* MBProgressHUD+LYQ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+LYQ.h"; sourceTree = "<group>"; };
 		B9714B861D77FC8D009AE3B2 /* MBProgressHUD+LYQ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+LYQ.m"; sourceTree = "<group>"; };
 		B9714B891D77FCE2009AE3B2 /* LYQUniversalDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYQUniversalDefine.h; sourceTree = "<group>"; };
@@ -292,6 +303,30 @@
 			name = VM;
 			sourceTree = "<group>";
 		};
+		B92A0DE51E111F5100F17790 /* IQKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				B92A0DE61E111F5100F17790 /* LYQIQKeyboardViewController.h */,
+				B92A0DE71E111F5100F17790 /* LYQIQKeyboardViewController.m */,
+				B92A0DE81E111F5100F17790 /* LYQIQKeyboardViewController.xib */,
+			);
+			path = IQKeyboard;
+			sourceTree = "<group>";
+		};
+		B92A0DEB1E111F6800F17790 /* CleanEmoji */ = {
+			isa = PBXGroup;
+			children = (
+				B92A0DEC1E111F9300F17790 /* LYQCleanEmojiViewController.h */,
+				B92A0DED1E111F9300F17790 /* LYQCleanEmojiViewController.m */,
+				B92A0DEE1E111F9300F17790 /* LYQCleanEmojiViewController.xib */,
+				B92A0DF11E11203E00F17790 /* UITextField+cleanEmoji.h */,
+				B92A0DF21E11203E00F17790 /* UITextField+cleanEmoji.m */,
+				B92A0DF41E1120C900F17790 /* NSString+cleanEmoji.h */,
+				B92A0DF51E1120C900F17790 /* NSString+cleanEmoji.m */,
+			);
+			path = CleanEmoji;
+			sourceTree = "<group>";
+		};
 		B933121F1DB7534A00269551 /* PaintCode */ = {
 			isa = PBXGroup;
 			children = (
@@ -306,17 +341,6 @@
 			children = (
 			);
 			path = venders;
-			sourceTree = "<group>";
-		};
-		B9552F171DCB2D450073406B /* IQKeyboard */ = {
-			isa = PBXGroup;
-			children = (
-				B9552F181DCB2D870073406B /* LYQIQKeyboardViewController.h */,
-				B9552F191DCB2D870073406B /* LYQIQKeyboardViewController.m */,
-				B9552F1A1DCB2D870073406B /* LYQIQKeyboardViewController.xib */,
-			);
-			name = IQKeyboard;
-			path = PaintCode/IQKeyboard;
 			sourceTree = "<group>";
 		};
 		B9714B841D77FBBC009AE3B2 /* category */ = {
@@ -345,6 +369,8 @@
 			children = (
 				B97967041D825F5800041DCE /* BaseViewController.h */,
 				B97967051D825F5800041DCE /* BaseViewController.m */,
+				B92A0DEB1E111F6800F17790 /* CleanEmoji */,
+				B92A0DE51E111F5100F17790 /* IQKeyboard */,
 				B97967061D825F5800041DCE /* CoreImg */,
 				B979670D1D825F5800041DCE /* ReactiveCocoa */,
 				B97967171D825F5800041DCE /* runtime */,
@@ -354,7 +380,6 @@
 				B97967251D825F5800041DCE /* 链接式编程 */,
 				B977CC241DB6190300B9BC8E /* 倒计时 */,
 				B933121F1DB7534A00269551 /* PaintCode */,
-				B9552F171DCB2D450073406B /* IQKeyboard */,
 			);
 			name = Controller;
 			path = category/Controller;
@@ -597,6 +622,7 @@
 			files = (
 				B97967321D825F5800041DCE /* LYQReactiveUniversalUseViewController.xib in Resources */,
 				B977CC2E1DB61BD800B9BC8E /* LYQCountDownViewController.xib in Resources */,
+				B92A0DF01E111F9300F17790 /* LYQCleanEmojiViewController.xib in Resources */,
 				B97967331D825F5800041DCE /* mvvm+最快让你上手ReactiveCocoa之进阶篇 - 简书.pdf in Resources */,
 				B9D7A4441DAF62CE0096A096 /* main.js in Resources */,
 				B97966FE1D825BE600041DCE /* heart.gif in Resources */,
@@ -604,10 +630,10 @@
 				B906CE8F1D7572B0007A1533 /* Main.storyboard in Resources */,
 				B98EEEDD1D78379200533494 /* launchScreen.png in Resources */,
 				B979672C1D825F5800041DCE /* LYQCoreImgViewController.xib in Resources */,
-				B9552F1C1DCB2D870073406B /* LYQIQKeyboardViewController.xib in Resources */,
 				B979672D1D825F5800041DCE /* nyc.jpg in Resources */,
 				B97967341D825F5800041DCE /* 最快让你上手ReactiveCocoa之基础篇 - 简书.pdf in Resources */,
 				B98EEED81D7834D500533494 /* LaunchScreen.storyboard in Resources */,
+				B92A0DEA1E111F5100F17790 /* LYQIQKeyboardViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -688,16 +714,17 @@
 				B977CC311DB61D1400B9BC8E /* UIButton+CountDown.m in Sources */,
 				B979672E1D825F5800041DCE /* UIImage+Filters.m in Sources */,
 				B97967371D825F5800041DCE /* LYQFunctionCodingCalculator.m in Sources */,
-				B9552F1B1DCB2D870073406B /* LYQIQKeyboardViewController.m in Sources */,
 				B97967381D825F5800041DCE /* LYQFunctionCodingViewController.m in Sources */,
 				B979672B1D825F5800041DCE /* LYQCoreImgViewController.m in Sources */,
 				B9552EE11DCB26450073406B /* CLXIbComponent.m in Sources */,
 				B979672A1D825F5800041DCE /* BaseViewController.m in Sources */,
+				B92A0DEF1E111F9300F17790 /* LYQCleanEmojiViewController.m in Sources */,
 				B9714B871D77FC8D009AE3B2 /* MBProgressHUD+LYQ.m in Sources */,
 				B979674D1D867D9500041DCE /* Book.m in Sources */,
 				B97967301D825F5800041DCE /* LYQReactiveTableVM.m in Sources */,
 				B906CE891D7572B0007A1533 /* AppDelegate.m in Sources */,
 				B979673A1D825F5800041DCE /* LYQLinkCodingCalculator.m in Sources */,
+				B92A0DF31E11203E00F17790 /* UITextField+cleanEmoji.m in Sources */,
 				B97967361D825F5800041DCE /* LYQValueForKeyPathViewController.m in Sources */,
 				B906CE861D7572B0007A1533 /* main.m in Sources */,
 				B979673B1D825F5800041DCE /* LYQLinkCodingViewController.m in Sources */,
@@ -705,7 +732,9 @@
 				B979672F1D825F5800041DCE /* LYQReactiveCocoaViewController.m in Sources */,
 				B97967471D864E4600041DCE /* LYQMVVMTestViewController.m in Sources */,
 				B93312221DB7536100269551 /* LYQPaintCodeViewController.m in Sources */,
+				B92A0DF61E1120C900F17790 /* NSString+cleanEmoji.m in Sources */,
 				B97967401D825F9A00041DCE /* EVGIFView.m in Sources */,
+				B92A0DE91E111F5100F17790 /* LYQIQKeyboardViewController.m in Sources */,
 				B97967021D825F5000041DCE /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

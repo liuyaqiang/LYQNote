@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface UIButton (CountDown)
-- (void)startWithTime:(NSInteger)timeLine title:(NSString *)title countDownTitle:(NSString *)subTitle mainColor:(UIColor *)mColor countColor:(UIColor *)color;
+- (void)startWithTime:(NSInteger)timeLine title:(NSString *)title countDownUnit:(NSString *)countDownUnit mainColor:(UIColor *)mColor countColor:(UIColor *)color;
 @end

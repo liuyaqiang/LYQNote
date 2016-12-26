@@ -78,7 +78,8 @@
                      @[@(NoteSectionTitleEnumCoreImg)],
                      @[@(NoteSectionTitleEnumCountDown)],
                      @[@(NoteSectionTitleEnumPaintCode)],
-                     @[@(NoteSectionTitleEnumIQKeyboardManager)]
+                     @[@(NoteSectionTitleEnumIQKeyboardManager)],
+                     @[@(NoteSectionTitleEnumCleanEmoji)]
                      ];
 
     }
