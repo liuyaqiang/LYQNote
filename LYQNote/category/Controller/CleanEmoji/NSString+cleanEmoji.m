@@ -1,3 +1,14 @@
+//
+//  NSString+cleanEmoji.m
+//  LYQNote
+//
+//  Created by liuyaqiang on 2016/12/26.
+//  Copyright © 2016年 liuyaqiang. All rights reserved.
+//
+
+#import "NSString+cleanEmoji.h"
+
+@implementation NSString (cleanEmoji)
 - (BOOL) emojiInUnicode:(short)code
 {
     if (code == 0x0023
@@ -181,3 +192,4 @@
     
 }
 
+@end

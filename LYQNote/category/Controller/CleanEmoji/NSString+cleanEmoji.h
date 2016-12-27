@@ -9,9 +9,7 @@
 #import <Foundation/Foundation.h>
 
 @interface NSString (cleanEmoji)
--(BOOL)isNotEmptyString;
 - (BOOL)isEmoji;
-
 - (BOOL)containsEmoji;
 - (NSString *)cleanEmoji;
 @end
