@@ -9,7 +9,9 @@
 #import <Foundation/Foundation.h>
 
 @interface NSString (cleanEmoji)
-- (BOOL) emojiInUnicode:(short)code;
-- (BOOL) emojiInSoftBankUnicode:(short)code;
-- (BOOL) containEmoji;
+-(BOOL)isNotEmptyString;
+- (BOOL)isEmoji;
+
+- (BOOL)containsEmoji;
+- (NSString *)cleanEmoji;
 @end

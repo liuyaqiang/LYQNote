@@ -18,8 +18,9 @@
 		B92A0DEA1E111F5100F17790 /* LYQIQKeyboardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B92A0DE81E111F5100F17790 /* LYQIQKeyboardViewController.xib */; };
 		B92A0DEF1E111F9300F17790 /* LYQCleanEmojiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B92A0DED1E111F9300F17790 /* LYQCleanEmojiViewController.m */; };
 		B92A0DF01E111F9300F17790 /* LYQCleanEmojiViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B92A0DEE1E111F9300F17790 /* LYQCleanEmojiViewController.xib */; };
-		B92A0DF31E11203E00F17790 /* UITextField+cleanEmoji.m in Sources */ = {isa = PBXBuildFile; fileRef = B92A0DF21E11203E00F17790 /* UITextField+cleanEmoji.m */; };
 		B92A0DF61E1120C900F17790 /* NSString+cleanEmoji.m in Sources */ = {isa = PBXBuildFile; fileRef = B92A0DF51E1120C900F17790 /* NSString+cleanEmoji.m */; };
+		B92A0DFA1E120E9D00F17790 /* LYQCleanEmojiViewController+LYQ.m in Sources */ = {isa = PBXBuildFile; fileRef = B92A0DF91E120E9D00F17790 /* LYQCleanEmojiViewController+LYQ.m */; };
+		B92A0DFD1E12377A00F17790 /* UITextField+cleanEmoji.m in Sources */ = {isa = PBXBuildFile; fileRef = B92A0DFC1E12377A00F17790 /* UITextField+cleanEmoji.m */; };
 		B93312221DB7536100269551 /* LYQPaintCodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B93312211DB7536100269551 /* LYQPaintCodeViewController.m */; };
 		B9552EE11DCB26450073406B /* CLXIbComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = B9552EE01DCB26450073406B /* CLXIbComponent.m */; };
 		B9714B871D77FC8D009AE3B2 /* MBProgressHUD+LYQ.m in Sources */ = {isa = PBXBuildFile; fileRef = B9714B861D77FC8D009AE3B2 /* MBProgressHUD+LYQ.m */; };
@@ -101,10 +102,12 @@
 		B92A0DEC1E111F9300F17790 /* LYQCleanEmojiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYQCleanEmojiViewController.h; sourceTree = "<group>"; };
 		B92A0DED1E111F9300F17790 /* LYQCleanEmojiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYQCleanEmojiViewController.m; sourceTree = "<group>"; };
 		B92A0DEE1E111F9300F17790 /* LYQCleanEmojiViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LYQCleanEmojiViewController.xib; sourceTree = "<group>"; };
-		B92A0DF11E11203E00F17790 /* UITextField+cleanEmoji.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+cleanEmoji.h"; sourceTree = "<group>"; };
-		B92A0DF21E11203E00F17790 /* UITextField+cleanEmoji.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+cleanEmoji.m"; sourceTree = "<group>"; };
 		B92A0DF41E1120C900F17790 /* NSString+cleanEmoji.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+cleanEmoji.h"; sourceTree = "<group>"; };
 		B92A0DF51E1120C900F17790 /* NSString+cleanEmoji.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+cleanEmoji.m"; sourceTree = "<group>"; };
+		B92A0DF81E120E9D00F17790 /* LYQCleanEmojiViewController+LYQ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LYQCleanEmojiViewController+LYQ.h"; sourceTree = "<group>"; };
+		B92A0DF91E120E9D00F17790 /* LYQCleanEmojiViewController+LYQ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "LYQCleanEmojiViewController+LYQ.m"; sourceTree = "<group>"; };
+		B92A0DFB1E12377A00F17790 /* UITextField+cleanEmoji.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+cleanEmoji.h"; sourceTree = "<group>"; };
+		B92A0DFC1E12377A00F17790 /* UITextField+cleanEmoji.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+cleanEmoji.m"; sourceTree = "<group>"; };
 		B93312201DB7536100269551 /* LYQPaintCodeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYQPaintCodeViewController.h; sourceTree = "<group>"; };
 		B93312211DB7536100269551 /* LYQPaintCodeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYQPaintCodeViewController.m; sourceTree = "<group>"; };
 		B9552EDF1DCB26450073406B /* CLXibComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLXibComponent.h; sourceTree = "<group>"; };
@@ -319,8 +322,10 @@
 				B92A0DEC1E111F9300F17790 /* LYQCleanEmojiViewController.h */,
 				B92A0DED1E111F9300F17790 /* LYQCleanEmojiViewController.m */,
 				B92A0DEE1E111F9300F17790 /* LYQCleanEmojiViewController.xib */,
-				B92A0DF11E11203E00F17790 /* UITextField+cleanEmoji.h */,
-				B92A0DF21E11203E00F17790 /* UITextField+cleanEmoji.m */,
+				B92A0DF81E120E9D00F17790 /* LYQCleanEmojiViewController+LYQ.h */,
+				B92A0DF91E120E9D00F17790 /* LYQCleanEmojiViewController+LYQ.m */,
+				B92A0DFB1E12377A00F17790 /* UITextField+cleanEmoji.h */,
+				B92A0DFC1E12377A00F17790 /* UITextField+cleanEmoji.m */,
 				B92A0DF41E1120C900F17790 /* NSString+cleanEmoji.h */,
 				B92A0DF51E1120C900F17790 /* NSString+cleanEmoji.m */,
 			);
@@ -724,8 +729,8 @@
 				B97967301D825F5800041DCE /* LYQReactiveTableVM.m in Sources */,
 				B906CE891D7572B0007A1533 /* AppDelegate.m in Sources */,
 				B979673A1D825F5800041DCE /* LYQLinkCodingCalculator.m in Sources */,
-				B92A0DF31E11203E00F17790 /* UITextField+cleanEmoji.m in Sources */,
 				B97967361D825F5800041DCE /* LYQValueForKeyPathViewController.m in Sources */,
+				B92A0DFA1E120E9D00F17790 /* LYQCleanEmojiViewController+LYQ.m in Sources */,
 				B906CE861D7572B0007A1533 /* main.m in Sources */,
 				B979673B1D825F5800041DCE /* LYQLinkCodingViewController.m in Sources */,
 				B979674A1D8655C200041DCE /* LYQVMTestVM.m in Sources */,
@@ -735,6 +740,7 @@
 				B92A0DF61E1120C900F17790 /* NSString+cleanEmoji.m in Sources */,
 				B97967401D825F9A00041DCE /* EVGIFView.m in Sources */,
 				B92A0DE91E111F5100F17790 /* LYQIQKeyboardViewController.m in Sources */,
+				B92A0DFD1E12377A00F17790 /* UITextField+cleanEmoji.m in Sources */,
 				B97967021D825F5000041DCE /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

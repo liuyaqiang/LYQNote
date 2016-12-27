@@ -1,14 +1,3 @@
-//
-//  NSString+cleanEmoji.m
-//  LYQNote
-//
-//  Created by liuyaqiang on 2016/12/26.
-//  Copyright © 2016年 liuyaqiang. All rights reserved.
-//
-
-#import "NSString+cleanEmoji.h"
-
-@implementation NSString (cleanEmoji)
 - (BOOL) emojiInUnicode:(short)code
 {
     if (code == 0x0023
@@ -114,8 +103,8 @@
 {
     return ((code >> 8) >= 0xE0 && (code >> 8) <= 0xE5 && (Byte)(code & 0xFF) < 0x60);
 }
-- (BOOL) containEmoji
-{
+
+- (BOOL)isEmoji {
     NSUInteger len = [self lengthOfBytesUsingEncoding:NSUTF8StringEncoding];
     if (len < 3) {  // 大于2个字符需要验证Emoji(有些Emoji仅三个字符)
         return NO;
@@ -161,6 +150,34 @@
         return YES;                 // 不是以上情况的字符全部超过三个字节,做Emoji处理
     }
     
-    return NO;
+    return NO;}
+//判断是否有emoji
+- (BOOL)containsEmoji
+{
+    __block BOOL returnValue = NO;
+    
+    [self enumerateSubstringsInRange:NSMakeRange(0, [self length])
+                             options:NSStringEnumerationByComposedCharacterSequences
+                          usingBlock:^(NSString *substring, NSRange substringRange, NSRange enclosingRange, BOOL *stop) {
+                              if ([substring isEmoji]) {
+                                  returnValue = YES;
+                                  *stop = YES;
+                              }
+                          }];
+    
+    return returnValue;
 }
-@end
+- (NSString *)cleanEmoji{
+    __block  NSString *clearnEmojiStr;
+    clearnEmojiStr = self;
+    [self enumerateSubstringsInRange:NSMakeRange(0, [self length])
+                             options:NSStringEnumerationByComposedCharacterSequences
+                          usingBlock:^(NSString *substring, NSRange substringRange, NSRange enclosingRange, BOOL *stop) {
+                              if ([substring isEmoji]) {
+                                  clearnEmojiStr = [self stringByReplacingOccurrencesOfString:substring withString:@""];
+                              }
+                          }];
+    return clearnEmojiStr;
+    
+}
+
