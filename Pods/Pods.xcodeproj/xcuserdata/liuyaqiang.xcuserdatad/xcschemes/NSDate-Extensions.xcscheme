@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A5BE6ABBD1BF711F2D8653A8AC08C201"
+               BlueprintIdentifier = "BFA9CFB0071851070EAF61DE5DBC8D09"
                BuildableName = "NSDate_Extensions.framework"
                BlueprintName = "NSDate-Extensions"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -26,6 +26,7 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      language = ""
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
@@ -36,6 +37,7 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      language = ""
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
       ignoresPersistentStateOnLaunch = "NO"
@@ -45,7 +47,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "A5BE6ABBD1BF711F2D8653A8AC08C201"
+            BlueprintIdentifier = "BFA9CFB0071851070EAF61DE5DBC8D09"
             BuildableName = "NSDate_Extensions.framework"
             BlueprintName = "NSDate-Extensions"
             ReferencedContainer = "container:Pods.xcodeproj">

@@ -10,7 +10,8 @@
 #endif
 #endif
 
+#import "YFTestLog.h"
 
-FOUNDATION_EXPORT double ResultVersionNumber;
-FOUNDATION_EXPORT const unsigned char ResultVersionString[];
+FOUNDATION_EXPORT double YFTestCpVersionNumber;
+FOUNDATION_EXPORT const unsigned char YFTestCpVersionString[];
 

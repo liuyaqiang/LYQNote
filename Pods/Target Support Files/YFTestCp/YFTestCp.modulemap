@@ -1,0 +1,6 @@
+framework module YFTestCp {
+  umbrella header "YFTestCp-umbrella.h"
+
+  export *
+  module * { export * }
+}

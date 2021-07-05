@@ -31,6 +31,7 @@ PODS:
   - SDWebImage (3.8.2):
     - SDWebImage/Core (= 3.8.2)
   - SDWebImage/Core (3.8.2)
+  - YFTestCp (0.0.1)
 
 DEPENDENCIES:
   - AFNetworking (~> 3.0)
@@ -43,6 +44,7 @@ DEPENDENCIES:
   - ORStackView (~> 3.0)
   - ReactiveCocoa
   - SDWebImage
+  - YFTestCp
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
@@ -57,7 +59,8 @@ SPEC CHECKSUMS:
   ReactiveCocoa: 72263e7ac0770c274617ccd345e01049d0ca38ae
   Result: 18e1a7597fbcca5923c565b40a25a98afafdee02
   SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  YFTestCp: 78799f2d853771b69aa86d76aba36e02dcbee0d6
 
-PODFILE CHECKSUM: 2db65400b081a1d9a2e119faf718290dbbfc1c60
+PODFILE CHECKSUM: e00b3022e5d569c75ae6d3e2d51e617f1dc52d4f
 
-COCOAPODS: 1.0.1
+COCOAPODS: 1.3.1

@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "8B4C9A26A5EC8FA99A9B54FE263E2285"
+               BlueprintIdentifier = "2A330D453A801F6BD6824CFA1FED3845"
                BuildableName = "Pods_LYQNote.framework"
                BlueprintName = "Pods-LYQNote"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -26,6 +26,7 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      language = ""
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
@@ -36,6 +37,7 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      language = ""
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
       ignoresPersistentStateOnLaunch = "NO"
@@ -45,7 +47,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8B4C9A26A5EC8FA99A9B54FE263E2285"
+            BlueprintIdentifier = "2A330D453A801F6BD6824CFA1FED3845"
             BuildableName = "Pods_LYQNote.framework"
             BlueprintName = "Pods-LYQNote"
             ReferencedContainer = "container:Pods.xcodeproj">

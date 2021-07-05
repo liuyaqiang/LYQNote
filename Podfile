@@ -12,4 +12,5 @@ target 'LYQNote' do
   pod 'FMDB'
   pod 'Masonry'
   pod "IQKeyboardManager"
+  pod 'YFTestCp'
 end
